@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poiret+One&display=swap');
+
+*{
+  font-family: "Outfit", sans-serif;
+  
+}
+
+.navbar{
+  display: flex;
+  align-items: center; 
+  background-color: #e0e0e0;
+  box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
+  -moz-box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
+}
+
+.navbar-right {
+  height: 80px;
+  display: flex;
+  align-items: center; 
+  padding: 10px;
+
+}
+
+.logo-nav{
+  width: 60px;
+  height: auto;
+  margin-left:30px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.nav-title {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.navbar-right, .navbar-center, .navbar-left{
+  flex: 1;
+  text-align: center;
+}
+
+.navbar-right{
+  text-align: start;
+  margin-right: 50px;
+}
+
+.navbar-left{
+  justify-content: end;
+  align-items: end;
+  margin-right: 50px;
+  display: flex;
+  font-size: 10px;
+}
+
+.navbar-center{
+  text-align: center;
+
+}
+
+.navbar-center ul{
+
+justify-content: center;
+ align-items: center;
+ display: flex;
+
+}
+
+.navbar-center li{
+  margin: 10px;
+
+}
+
+.search-icon-nav ,.fav-icon , .shop-icon , .account-icon-m {
+  margin: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fav-icon-amount , .shopping-icon-amount{
+  background-color: rgb(255, 51, 0);
+  color: white;
+  padding: 5px;
+  padding-left: 5px;
+  border-radius: 50%;
+
+}
+
+.nav-small {
+  margin-left: 50px;
+}
+
+.small-nav-heading  {
+  margin-top: 20px;
+}
+
+.small-nav-end{
+ margin-top: -25px;
+}
+
+.small-nav-end ul{
+  justify-content: end;
+  align-items: end;
+  display: flex;
+}
+
+.small-nav-end li{
+  margin-right: 20px;
+}
