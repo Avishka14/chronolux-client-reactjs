@@ -1,10 +1,19 @@
+import React, { useState } from "react";
 import "./Navbar.css";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
+import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOutlined";
 
 export default function Navbar() {
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded((prevState) => !prevState);
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -42,25 +51,42 @@ export default function Navbar() {
             <AccountCircleOutlinedIcon className="account-icon-m" />
           </div>
         </div>
+
+        <div className="expand-div">
+          <button className="btn-expand" onClick={toggleExpand}>
+            <ExpandCircleDownOutlinedIcon className="expand-div-icon" />
+          </button>
+        </div>
+
       </nav>
-       
-       <nav className="nav-small">
-          
-          <div className="small-nav-heading">
-                <p>Welcome to ChronoLux ! Your Ultimate Luxury Watch Partnter !</p>
-          </div>
 
-          <div className="small-nav-end"> 
-            <ul>
-              <li>About Us</li>
-              <li>Contact</li>
-              <li>Join Us</li>
-            </ul>
+      <nav className="nav-small">
+        <div className="small-nav-heading">
+          <p>Welcome to ChronoLux ! Your Ultimate Luxury Watch Partnter !</p>
+        </div>
 
-          </div>
-
-       </nav>
-
+        <div className="small-nav-end">
+          <ul>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Join Us</li>
+          </ul>
+        </div>
+      </nav>
+     
+      <div className={`link-tab-expanded ${isExpanded ? "show" : ""}`}>
+      <div className="link-group">
+          <a href="">SHOP</a>
+          <a href="">BRANDS</a>
+          <a href="">ACCESSORIES</a>
+          <a href="">OFFERS</a>
+          <a href="">About Us</a>
+          <a href="">Contact</a>
+          <a href="">Join Us</a>
+        </div>
+      </div>
+      
+  
 
     </div>
   );

@@ -107,3 +107,93 @@ justify-content: center;
 .small-nav-end li{
   margin-right: 20px;
 }
+
+.btn-expand , .expand-div-icon{
+  margin-right: 10px;
+  visibility: visible;
+}
+
+.link-tab-expanded{
+  background-color: #e0e0e0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0s 0.5s;
+  
+}
+
+.link-group a{
+ display: block;
+ text-align: center;
+ margin: 10px;
+ padding: 10px;
+}
+
+.link-tab-expanded.show {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease, visibility 0s 0s;
+  margin-top: 0px;
+}
+
+.expand-div{
+  display: none;
+ }
+
+
+
+@media(max-width:1050px){
+   .navbar-center{
+    display: none;
+   }
+
+   .expand-div-body{
+    display: block;
+   }
+
+   .expand-div{
+    display: block;
+   }
+
+}
+
+@media(max-width:745px){
+ .nav-small{
+   display: none;
+ }
+
+}
+
+@media(max-width:745px){
+
+  .navbar-right{
+    margin-right: 0px;
+  }
+  .logo-nav{
+    width: 45px;
+  }
+
+  .nav-title{
+    font-size: 15px;
+  }
+ 
+ }
+
+ @media(max-width:616px){
+
+  .search-icon-nav ,.fav-icon , .shop-icon , .account-icon-m {
+    margin: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .fav-icon-amount , .shopping-icon-amount{
+    background-color: rgb(255, 51, 0);
+    color: white;
+    padding: 5px;
+    padding-left: 5px;
+    border-radius: 50%;
+  
+  }
+  
+ 
+ }
