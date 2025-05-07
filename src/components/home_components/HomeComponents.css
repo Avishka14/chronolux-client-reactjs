@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Outfit:wght@100..900&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Love+Light&family=Outfit:wght@100..900&family=Poiret+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -40,11 +40,7 @@
     animation: fadeSlide 15s infinite;
   }
 
-  .overlay span{
-    font-size: 70px;
-    font-family: "Love Light", cursive;
-  }
-  
+
   .slide:nth-child(1) {
     animation-delay: 0s;
   }
@@ -68,44 +64,45 @@
     border-radius: 20px;
   }
   
-
   .overlay {
     position: absolute;
-    top: 40%;
-    left: 5%;
-    color: #fff;
+    top: 30%;
+    left: 10%;
+   color: rgb(0, 34, 73);
     text-align: center;
   }
   
-  
-  @media (max-width: 768px) {
-    .overlay span {
-      font-size: 40px;
-    }
-  
+  .overlay h1{
+    font-size: 95px;
+    font-weight: 600;
   }
-  
-  .gradient-text {
-    background: linear-gradient(270deg, #afafaf, #ff7777, #ff6666, #ffffff);
-    background-size: 800% 800%;
-    
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-    animation: gradientMove 10s ease infinite;
-    font-weight: bold;
+  .overlay h3{
+    font-size: 60px;
+    margin-top: -40px;
   }
-  
-  @keyframes gradientMove {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+
+  .overlay h2{
+    font-size: 110px;
+    margin-top: -50px;
+    font-weight: 600;
   }
+
+
+  @media(max-width:505px){
+      
+    .overlay h1{
+      font-size: 50px;
+      font-weight: 600;
+    }
+    .overlay h3{
+      font-size: 20px;
+      margin-top: -10px;
+    }
   
+    .overlay h2{
+      font-size: 60px;
+      font-weight: 600;
+      margin-top: -20px;
+    }
+   
+   }

@@ -8,21 +8,12 @@
 .navbar{
   display: flex;
   align-items: center; 
-  background-color: #6e1404;
-  box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
-  -moz-box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
-  color:white;
+  background-color: #ffffff;
+  box-shadow: -1px 8px 12px -7px rgba(0,0,0,0.52);
+  -webkit-box-shadow: -1px 8px 12px -7px rgba(0,0,0,0.52);
+  -moz-box-shadow: -1px 8px 12px -7px rgba(0,0,0,0.52);
+  color:rgb(0, 140, 158);
 }
-
-.navbar-right {
-  display: flex;
-  align-items: center; 
-  padding: 10px;
-  margin: 10px;
-
-}
-
 
 
 .nav-title {
@@ -36,8 +27,15 @@
 }
 
 .navbar-right{
+  display: flex;
   text-align: start;
   margin-right: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbar-right img{
+  width: 130px;
 }
 
 .navbar-left{
@@ -49,13 +47,14 @@
 }
 
 .navbar-center{
-  text-align: center;
-
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .navbar-center ul{
 
-justify-content: center;
+ justify-content: center;
  align-items: center;
  display: flex;
 
@@ -63,22 +62,25 @@ justify-content: center;
 
 .navbar-center li{
   margin: 10px;
+  font-size: 22px;
 
 }
 
 .search-icon-nav ,.fav-icon , .shop-icon , .account-icon-m {
-  margin: 5px;
+  margin: 15px;
   margin-left: 20px;
   cursor: pointer;
 }
 
 .fav-icon-amount , .shopping-icon-amount{
-  background-color: rgb(255, 51, 0);
+  background-color: rgb(7, 99, 128);
   color: white;
   padding: 5px;
   padding-left: 5px;
+  margin-left: -20px;
   border-radius: 50%;
-
+  position: absolute;
+  width: 20px;
 }
 
 .nav-small {
@@ -87,10 +89,11 @@ justify-content: center;
 
 .small-nav-heading  {
   margin-top: 20px;
+  font-size: 18px;
 }
 
 .small-nav-end{
- margin-top: -25px;
+ margin-top: -29px;
 }
 
 .small-nav-end ul{
@@ -101,7 +104,8 @@ justify-content: center;
 
 .small-nav-end li{
   margin-right: 20px;
-  color: rgb(255, 72, 0);
+  color: rgb(0, 60, 255);
+  font-size: 20px;
 }
 
 .expand-div{
@@ -110,7 +114,7 @@ justify-content: center;
 
  .btn-expand{
   margin-left: -40px;
-  color: #ff2600;
+  color: #00aeff;
  }
 
 
@@ -121,18 +125,16 @@ justify-content: center;
    }
 
    .search-icon-nav ,.fav-icon , .shop-icon , .account-icon-m {
-   
     margin-left: 0px;
   }
 
   .expand-div{
     display: block;
-  
    }
   
 }
 
-@media(max-width:745px){
+@media(max-width:899px){
  .nav-small{
    display: none;
  }
@@ -158,17 +160,15 @@ justify-content: center;
 
   .search-icon-nav ,.fav-icon , .shop-icon , .account-icon-m {
     margin: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
   }
   
   .fav-icon-amount , .shopping-icon-amount{
-    background-color: rgb(255, 51, 0);
-    color: white;
     padding: 5px;
     padding-left: 5px;
     border-radius: 50%;
-  
+    margin-top: -10px;
   }
   
  

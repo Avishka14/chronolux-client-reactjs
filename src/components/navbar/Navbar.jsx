@@ -13,16 +13,16 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="navbar-right">
-          <span className="nav-title">ChronoLux</span>
+          <img src="src\assets\icons\chronolux-png.png" className="logo-nav" />
         </div>
 
         <div className="navbar-center">
           <ul>
-            <li>HOME</li>
-            <li>SHOP</li>
-            <li>BRANDS</li>
-            <li>ACCESSORIES</li>
-            <li>OFFERS</li>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Brands</li>
+            <li>Accessories</li>
+            <li>Offers</li>
           </ul>
         </div>
 
@@ -44,7 +44,7 @@ export default function Navbar() {
           <div className="account-icon">
             <AccountCircleOutlinedIcon className="account-icon-m" /> |
           </div>
-        </div>
+         </div>
 
         <div className="expand-div"> 
           <button className="btn-expand" >
