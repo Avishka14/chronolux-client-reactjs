@@ -8,27 +8,22 @@
 .navbar{
   display: flex;
   align-items: center; 
-  background-color: #e0e0e0;
+  background-color: #6e1404;
   box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
   -webkit-box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
   -moz-box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.3);
+  color:white;
 }
 
 .navbar-right {
-  height: 80px;
   display: flex;
   align-items: center; 
   padding: 10px;
+  margin: 10px;
 
 }
 
-.logo-nav{
-  width: 60px;
-  height: auto;
-  margin-left:30px;
-  cursor: pointer;
-  padding: 5px;
-}
+
 
 .nav-title {
   font-size: 25px;
@@ -106,37 +101,16 @@ justify-content: center;
 
 .small-nav-end li{
   margin-right: 20px;
-}
-
-.btn-expand , .expand-div-icon{
-  margin-right: 10px;
-  visibility: visible;
-}
-
-.link-tab-expanded{
-  background-color: #e0e0e0;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0s 0.5s;
-  
-}
-
-.link-group a{
- display: block;
- text-align: center;
- margin: 10px;
- padding: 10px;
-}
-
-.link-tab-expanded.show {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.5s ease, visibility 0s 0s;
-  margin-top: 0px;
+  color: rgb(255, 72, 0);
 }
 
 .expand-div{
   display: none;
+ }
+
+ .btn-expand{
+  margin-left: -40px;
+  color: #ff2600;
  }
 
 
@@ -146,14 +120,16 @@ justify-content: center;
     display: none;
    }
 
-   .expand-div-body{
-    display: block;
-   }
+   .search-icon-nav ,.fav-icon , .shop-icon , .account-icon-m {
+   
+    margin-left: 0px;
+  }
 
-   .expand-div{
+  .expand-div{
     display: block;
+  
    }
-
+  
 }
 
 @media(max-width:745px){
