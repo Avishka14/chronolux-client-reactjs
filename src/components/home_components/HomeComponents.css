@@ -68,7 +68,7 @@
     position: absolute;
     top: 30%;
     left: 10%;
-   color: rgb(0, 34, 73);
+    color: rgb(0, 34, 73);
     text-align: center;
   }
   
@@ -89,7 +89,14 @@
 
 
   @media(max-width:505px){
-      
+    
+    .overlay {
+      justify-content: center;
+      align-items: center;
+      display: block;
+    }
+    
+
     .overlay h1{
       font-size: 50px;
       font-weight: 600;
