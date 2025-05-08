@@ -1,19 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOutlined";
+import SearchBox from "./SearchBox";
 
 export default function Navbar() {
+  const [showSearchBox, setSearchBox] = useState(false);
 
+  const handleClick = () => {
+    setSearchBox((prev) => !prev);
+  };
 
   return (
     <div>
       <nav className="navbar">
         <div className="navbar-right">
-          <img src="src\assets\icons\chronolux-png.png" className="logo-nav" />
+          <img src="src/assets/icons/chronolux-png.png" className="logo-nav" />
         </div>
 
         <div className="navbar-center">
@@ -28,30 +33,31 @@ export default function Navbar() {
 
         <div className="navbar-left">
           <div className="search-box-icon">
-            <SearchIcon className="search-icon-nav" /> 
+            <button onClick={handleClick}>
+              <SearchIcon className="search-icon-nav" />
+            </button>
           </div>
 
           <div className="fav-box-icon">
-            <FavoriteBorderOutlinedIcon className="fav-icon" /> 
+            <FavoriteBorderOutlinedIcon className="fav-icon" />
             <span className="fav-icon-amount">1</span>
           </div>
 
           <div className="shopping-icon">
-            <ShoppingBagOutlinedIcon className="shop-icon" /> 
+            <ShoppingBagOutlinedIcon className="shop-icon" />
             <span className="shopping-icon-amount">3</span>
           </div>
 
           <div className="account-icon">
             <AccountCircleOutlinedIcon className="account-icon-m" /> |
           </div>
-         </div>
+        </div>
 
-        <div className="expand-div"> 
-          <button className="btn-expand" >
+        <div className="expand-div">
+          <button className="btn-expand">
             <ExpandCircleDownOutlinedIcon className="expand-div-icon" />
           </button>
         </div>
-
       </nav>
 
       <nav className="nav-small">
@@ -67,11 +73,9 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
-     
-      
-      
-  
 
+      <div className="searchBox-overlay">{showSearchBox && <SearchBox />}</div>
+      
     </div>
   );
 }

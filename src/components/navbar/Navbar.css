@@ -9,16 +9,8 @@
   display: flex;
   align-items: center; 
   background-color: #ffffff;
-  box-shadow: -1px 8px 12px -7px rgba(0,0,0,0.52);
-  -webkit-box-shadow: -1px 8px 12px -7px rgba(0,0,0,0.52);
-  -moz-box-shadow: -1px 8px 12px -7px rgba(0,0,0,0.52);
-  color:rgb(0, 140, 158);
-}
-
-
-.nav-title {
-  font-size: 25px;
-  cursor: pointer;
+  color: rgb(0, 195, 255);
+  box-shadow: -2px 0px 14px -6px rgb(0, 0, 0);
 }
 
 .navbar-right, .navbar-center, .navbar-left{
@@ -30,12 +22,12 @@
   display: flex;
   text-align: start;
   margin-right: 50px;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
 }
 
 .navbar-right img{
-  width: 130px;
+  width: 120px;
 }
 
 .navbar-left{
@@ -73,7 +65,7 @@
 }
 
 .fav-icon-amount , .shopping-icon-amount{
-  background-color: rgb(7, 99, 128);
+  color: rgb(0, 140, 255);
   color: white;
   padding: 5px;
   padding-left: 5px;
@@ -104,7 +96,7 @@
 
 .small-nav-end li{
   margin-right: 20px;
-  color: rgb(0, 60, 255);
+  color: rgb(0, 140, 255);
   font-size: 20px;
 }
 
@@ -171,5 +163,113 @@
     margin-top: -10px;
   }
   
- 
  }
+ 
+ .searchBox-container{
+  width: 450px;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: -2px 4px 9px -5px rgba(0, 0, 0, 0.5);
+  animation: fadeSlideIn 0.4s ease-out forwards;
+  transform-origin: center;
+   
+ }
+ 
+
+.input-container {
+  right: 10px;
+  position: relative;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-input {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.custom-label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: gray;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.custom-input:focus + .custom-label,
+.custom-input:valid + .custom-label {
+  top: 0;
+  font-size: 12px;
+  color:  rgb(0, 162, 255);
+}
+
+.custom-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(0, 183, 255);
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.custom-input:focus ~ .custom-underline {
+  transform: scaleX(1);
+}
+
+.search-button{
+  background-color: rgb(0, 183, 255);
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: -2px 4px 9px -5px rgb(127, 210, 248);
+}
+
+.search-button-m{
+  color: white;
+}
+
+.searchBox-overlay{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.searchBox-overlay {
+  animation: fadeOverlay 0.3s ease forwards;
+}
+
+@keyframes fadeOverlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
