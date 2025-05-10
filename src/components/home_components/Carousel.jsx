@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeComponents.css";
 
+
 export default function Carousel() {
   return (
     <div>
