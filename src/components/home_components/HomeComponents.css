@@ -229,6 +229,11 @@ body, html {
 .sign-in-container{
   display: flex;
 }
+
+.latest-arrival-container{
+  margin: 30px;
+}
+
 @media (max-width: 992px) {
   .brand-watch-photos-container {
     grid-template-columns: repeat(2, 1fr);
@@ -297,6 +302,8 @@ body, html {
   margin-left: 20px;
   font-weight: 600;
 }
+
+
 
 
 }

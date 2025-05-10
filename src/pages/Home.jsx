@@ -3,6 +3,7 @@ import Navbar from '../components/navbar/Navbar'
 import Carousel from '../components/home_components/Carousel'
 import './Home.css'
 import Brands from '../components/home_components/Brands'
+import LatestArrivals from '../components/home_components/LatestArrivals'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
        <Navbar/>
        <Carousel/>
        <Brands/>
-       
+       <LatestArrivals/>
     </div>
   )
 }
