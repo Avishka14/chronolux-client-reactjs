@@ -10,6 +10,7 @@ export default function Home() {
        <Navbar/>
        <Carousel/>
        <Brands/>
+       
     </div>
   )
 }

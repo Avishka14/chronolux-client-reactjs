@@ -23,6 +23,16 @@ export default function Brands() {
           </ul>
           <h1 className="brand-h1">+ More !</h1>
         </div>
+
+        <div className="brand-watch-photos-container">
+            
+            <div className="watch-p-c">
+                
+
+            </div>
+
+        </div>
+
       </div>
     </div>
   );
