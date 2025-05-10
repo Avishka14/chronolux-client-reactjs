@@ -6,13 +6,19 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOutlined";
 import SearchBox from "./SearchBox";
+import SideNav from "./SideNav";
 
 export default function Navbar() {
   const [showSearchBox, setSearchBox] = useState(false);
+  const [showSideNav , setSideNav] = useState(false);
 
   const handleClick = () => {
     setSearchBox((prev) => !prev);
   };
+
+  const handleSideNav =() =>{
+    setSideNav((prev) => !prev);
+  }
 
   return (
     <div>
@@ -49,12 +55,12 @@ export default function Navbar() {
           </div>
 
           <div className="account-icon">
-            <AccountCircleOutlinedIcon className="account-icon-m" /> |
+            <AccountCircleOutlinedIcon className="account-icon-m" />
           </div>
         </div>
 
         <div className="expand-div">
-          <button className="btn-expand">
+          <button className="btn-expand" onClick={handleSideNav}>
             <ExpandCircleDownOutlinedIcon className="expand-div-icon" />
           </button>
         </div>
@@ -75,7 +81,10 @@ export default function Navbar() {
       </nav>
 
       <div className="searchBox-overlay">{showSearchBox && <SearchBox />}</div>
-      
+      <div className={`sideNav-overlay ${showSideNav ? "open" : ""}`} >
+        {showSideNav && <SideNav onClose={handleSideNav}/>}
+        </div>
+
     </div>
   );
 }
