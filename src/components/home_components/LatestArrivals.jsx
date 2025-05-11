@@ -7,7 +7,7 @@ const products = [
     name: "Rolex Oyster Perpetual 41",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg",
+      "src/assets/home-img/latest-arrivals/Rolex Oyster Perpetual 41.jpg",
     price: "$6,400",
     color: "Rolex",
   },
@@ -16,7 +16,7 @@ const products = [
     name: "Omega Speedmaster Moonwatch Professional",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-02.jpg",
+      "src/assets/home-img/latest-arrivals/Omega Speedmaster Moonwatch Professional.jpg",
     price: "$7,000",
     color: "Omega",
   },
@@ -25,7 +25,7 @@ const products = [
     name: "Audemars Piguet Royal Oak Selfwinding",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-03.jpg",
+      "src/assets/home-img/latest-arrivals/Audemars Piguet Royal Oak Selfwinding.png",
     price: "$35,000",
     color: "Audemars Piguet",
   },
@@ -34,7 +34,7 @@ const products = [
     name: "Patek Philippe Calatrava 6119R",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-04.jpg",
+      "src/assets/home-img/latest-arrivals/Patek Philippe Calatrava 6119R.jpg",
     price: "$31,940",
     color: "Patek Philippe",
   },
@@ -43,7 +43,7 @@ const products = [
     name: "Cartier Santos de Cartier Large Model",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-05.jpg",
+      "src/assets/home-img/latest-arrivals/Cartier Santos de Cartier Large Model.jpg",
     price: "$8,450",
     color: "Cartier",
   },
@@ -52,7 +52,7 @@ const products = [
     name: "Tag Heuer Carrera Chronograph 42mm",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-06.jpg",
+      "src/assets/home-img/latest-arrivals/Tag Heuer Carrera Chronograph 42mm.jpg",
     price: "$5,750",
     color: "TAG Heuer",
   },
@@ -61,7 +61,7 @@ const products = [
     name: "Hublot Classic Fusion Titanium 42mm",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-07.jpg",
+      "src/assets/home-img/latest-arrivals/Hublot Classic Fusion Titanium 42mm.jpg",
     price: "$8,200",
     color: "Hublot",
   },
@@ -70,7 +70,7 @@ const products = [
     name: "Breitling Navitimer B01 Chronograph 43",
     href: "#",
     imageSrc:
-      "https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-08.jpg",
+      "src/assets/home-img/latest-arrivals/Breitling Navitimer B01 Chronograph 43.png",
     price: "$9,000",
     color: "Breitling",
   },
@@ -78,42 +78,40 @@ const products = [
 
 export default function LatestArrivals() {
   return (
-    <div className="latest-arrival-container flex justify-center ">
-      <div className="bg-white w-full max-w-7xl">
-        <div className="mx-auto px-4 py-16">
-          <h2 className="latest-heading">
-            Latest Arrivals!
-          </h2>
+  <div className="latest-arrival-container flex justify-center">
+  <div className="bg-white w-full max-w-7xl">
+    <div className="mx-auto px-4 py-16">
+      <h2 className="latest-heading">Latest Arrivals!</h2>
 
-          <div className="mt-6 grid grid-cols-4 gap-x-6 gap-y-10">
-            {products.map((product) => (
-              <div key={product.id} className="group relative">
-                <img
-                  alt={product.imageAlt}
-                  src={product.imageSrc}
-                  className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75"
-                />
-                <div className="mt-4 flex justify-between">
-                  <div>
-                    <h3 className="text-sm ">
-                      <a href={product.href}>
-                        <span aria-hidden="true" className="absolute inset-0" />
-                        {product.name}
-                      </a>
-                    </h3>
-                    <p className="mt-1 text-sm text-gray-500">
-                      {product.color}
-                    </p>
-                  </div>
-                  <p className="text-sm font-medium text-gray-900">
-                    {product.price}
-                  </p>
-                </div>
+      {/* Responsive grid: 2 cols on small, 4 on md+ */}
+      <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 product-list-latest">
+        {products.map((product) => (
+          <div key={product.id} className="group relative">
+            <img
+              alt={product.imageAlt}
+              src={product.imageSrc}
+              className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75"
+            />
+            <div className="mt-4 flex justify-between">
+              <div>
+                <h3 className="text-sm">
+                  <a href={product.href}>
+                    <span aria-hidden="true" className="absolute inset-0" />
+                    {product.name}
+                  </a>
+                </h3>
+                <p className="mt-1 text-sm text-gray-500">{product.color}</p>
               </div>
-            ))}
+              <p className="text-sm font-medium text-gray-900">
+                {product.price}
+              </p>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
+  </div>
+</div>
+
   );
 }
