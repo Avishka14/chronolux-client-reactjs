@@ -81,7 +81,7 @@ export default function LatestArrivals() {
     <div className="latest-arrival-container flex justify-center ">
       <div className="bg-white w-full max-w-7xl">
         <div className="mx-auto px-4 py-16">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+          <h2 className="latest-heading">
             Latest Arrivals!
           </h2>
 
