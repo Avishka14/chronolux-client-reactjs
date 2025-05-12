@@ -4,6 +4,7 @@ import Carousel from '../components/home_components/Carousel'
 import './Home.css'
 import Brands from '../components/home_components/Brands'
 import LatestArrivals from '../components/home_components/LatestArrivals'
+import ShopByCat from '../components/home_components/ShopByCat'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
        <Carousel/>
        <Brands/>
        <LatestArrivals/>
+       <ShopByCat/>
     </div>
   )
 }

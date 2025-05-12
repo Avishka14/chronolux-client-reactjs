@@ -80,7 +80,7 @@ export default function LatestArrivals() {
   return (
   <div className="latest-arrival-container flex justify-center">
   <div className="bg-white w-full max-w-7xl">
-    <div className="mx-auto px-4 py-16">
+    <div className="mx-auto px-4 ">
       <h2 className="latest-heading">Latest Arrivals!</h2>
 
       {/* Responsive grid: 2 cols on small, 4 on md+ */}

@@ -245,7 +245,7 @@ body, html {
 
 .slider-track {
   display: flex;
-  width: 400%; /* 4 slides */
+  width: 400%; 
   animation: slide 24s cubic-bezier(0.75, 0, 0.25, 1) infinite; 
 }
 
@@ -276,6 +276,33 @@ body, html {
 
 .image-slider:hover .slider-track {
   animation-play-state: paused;
+}
+
+
+.discover-h2{
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.discover-p{
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 10px;
+}
+
+.img-div-discover{
+  padding: 10px;
+
+}
+
+
+@media (max-width: 1022px) {
+   
 }
 
 @media (max-width: 992px) {
@@ -312,6 +339,10 @@ body, html {
   margin-left: 20px;
   font-weight: 600;
 }
+
+
+
+
 
 }
 
@@ -356,6 +387,9 @@ body, html {
   font-weight: 600;
 }
 
+.img-div-discover{
+  padding: 50px;
+}
 
 
 
