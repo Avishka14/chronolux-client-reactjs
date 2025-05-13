@@ -5,6 +5,8 @@ import './Home.css'
 import Brands from '../components/home_components/Brands'
 import LatestArrivals from '../components/home_components/LatestArrivals'
 import ShopByCat from '../components/home_components/ShopByCat'
+import BestSelling from '../components/home_components/BestSelling'
+import Featured from '../components/home_components/Featured'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
        <Brands/>
        <LatestArrivals/>
        <ShopByCat/>
+       <BestSelling/>
+       <Featured/>
     </div>
   )
 }

@@ -300,9 +300,17 @@ body, html {
 
 }
 
+.logo-div{
+  width: 100%;
+  background-color: #f1f1f1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
-@media (max-width: 1022px) {
-   
+.logo-div img{
+  width: 100px;
+ 
 }
 
 @media (max-width: 992px) {
@@ -339,9 +347,6 @@ body, html {
   margin-left: 20px;
   font-weight: 600;
 }
-
-
-
 
 
 }
