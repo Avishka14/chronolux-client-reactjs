@@ -1,21 +1,19 @@
 import React from "react";
 import "./HomeComponents.css";
 const products = [
-  {
+   {
     id: 1,
-    name: "Rolex Oyster Perpetual 41",
+    name: "Rolex Submariner Date",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Rolex Oyster Perpetual 41.jpg",
-    price: "$6,400",
+    imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
+    price: "$10,250",
     color: "Rolex",
   },
   {
     id: 2,
     name: "Omega Speedmaster Moonwatch Professional",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Omega Speedmaster Moonwatch Professional.jpg",
+    imageSrc: "src/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
     price: "$7,000",
     color: "Omega",
   },
@@ -23,56 +21,50 @@ const products = [
     id: 3,
     name: "Audemars Piguet Royal Oak Selfwinding",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Audemars Piguet Royal Oak Selfwinding.png",
+    imageSrc: "src/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
     price: "$35,000",
     color: "Audemars Piguet",
   },
   {
     id: 4,
-    name: "Patek Philippe Calatrava 6119R",
+    name: "Patek Philippe Nautilus 5711",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Patek Philippe Calatrava 6119R.jpg",
-    price: "$31,940",
+    imageSrc: "src/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
+    price: "$120,000",
     color: "Patek Philippe",
   },
   {
     id: 5,
-    name: "Cartier Santos de Cartier Large Model",
+    name: "Cartier Tank Must",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Cartier Santos de Cartier Large Model.jpg",
-    price: "$8,450",
+    imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
+    price: "$3,000",
     color: "Cartier",
   },
   {
     id: 6,
-    name: "Tag Heuer Carrera Chronograph 42mm",
+    name: "TAG Heuer Monaco Calibre 11",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Tag Heuer Carrera Chronograph 42mm.jpg",
-    price: "$5,750",
+    imageSrc: "src/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
+    price: "$6,550",
     color: "TAG Heuer",
   },
   {
     id: 7,
-    name: "Hublot Classic Fusion Titanium 42mm",
+    name: "Hublot Big Bang Unico",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Hublot Classic Fusion Titanium 42mm.jpg",
-    price: "$8,200",
+    imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
+    price: "$21,000",
     color: "Hublot",
   },
   {
     id: 8,
-    name: "Breitling Navitimer B01 Chronograph 43",
+    name: "Tissot PRX Powermatic 80",
     href: "#",
-    imageSrc:
-      "src/assets/home-img/latest-arrivals/Breitling Navitimer B01 Chronograph 43.png",
-    price: "$9,000",
-    color: "Breitling",
-  },
+    imageSrc: "src/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
+    price: "$695",
+    color: "Tissot",
+  }
 ];
 
 export default function BestSelling() {
