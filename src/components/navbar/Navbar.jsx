@@ -24,7 +24,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="navbar-right">
-          <img src="src/assets/icons/chronolux-png.png" className="logo-nav" />
+          <img src="src/assets/icons/chronolux-w-png.png" className="logo-nav" />
         </div>
 
         <div className="navbar-center">

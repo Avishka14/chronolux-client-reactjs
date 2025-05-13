@@ -6,12 +6,12 @@ export default function SearchBox() {
     <div className="searchBox-container">
 
       <div class="input-container">
-        <input type="text" id="customInput" class="custom-input" />
-        <label for="customInput" class="custom-label">
+        <input type="text" id="customInput" className="custom-input" />
+        <label htmlFor="customInput" className="custom-label">
           {" "}
           Search{" "}
         </label>
-        <span class="custom-underline"></span>
+        <span  className="custom-underline"></span>
       </div>
       <button className="search-button">
         <SearchIcon className="search-button-m" />

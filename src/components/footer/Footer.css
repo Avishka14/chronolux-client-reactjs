@@ -1,0 +1,16 @@
+.footer-container{
+  margin-top: 50px;
+}
+
+.footer-container footer{
+  padding: 30px;
+}
+
+.footer-watermark{
+    margin-top: 20px;
+}
+
+.footer-watermark p {
+    padding: 20px;
+    color: white;
+}

@@ -7,6 +7,7 @@ import LatestArrivals from '../components/home_components/LatestArrivals'
 import ShopByCat from '../components/home_components/ShopByCat'
 import BestSelling from '../components/home_components/BestSelling'
 import Featured from '../components/home_components/Featured'
+import Footer from '../components/footer/Footer'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
        <ShopByCat/>
        <BestSelling/>
        <Featured/>
+       <Footer/>
     </div>
   )
 }
