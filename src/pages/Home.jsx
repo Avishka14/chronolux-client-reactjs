@@ -15,11 +15,7 @@ export default function Home() {
        <Navbar/>
        <Carousel/>
        <Brands/>
-       <LatestArrivals/>
-       <ShopByCat/>
-       <BestSelling/>
-       <Featured/>  
-       <Footer/>
+       
     </div>
   )
 }
