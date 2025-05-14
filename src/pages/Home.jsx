@@ -18,7 +18,7 @@ export default function Home() {
        <LatestArrivals/>
        <ShopByCat/>
        <BestSelling/>
-       <Featured/>
+       <Featured/>  
        <Footer/>
     </div>
   )

@@ -6,12 +6,12 @@ export default function Footer() {
     <div className='footer-container'>
     
      <footer className="bg-gray-900 text-gray-400">
-      <div className="max-w-7xl mx-auto px-6 py-12">
+      <div className=" ">
         <div className="md:flex md:justify-between">
-          {/* Left Section */}
+     
           <div className="mb-10 md:mb-0 md:max-w-md">
             <div className="flex items-center space-x-2 mb-4">
-              {/* Logo */}
+          
               
               <span className="text-white font-semibold text-lg">ChronoLux</span>
             </div>
@@ -19,7 +19,7 @@ export default function Footer() {
               Elevating your style through classic and modern timepieces.
             </p>
 
-            {/* Social Icons */}
+      
             <div className="mt-6 flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Right Section */}
+   
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
             <div>
               <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Links</h3>
@@ -81,7 +81,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Social Media</h3>
+              <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Legal</h3>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:text-white">Terms of service</a></li>
                 <li><a href="#" className="hover:text-white">Privacy policy</a></li>
@@ -91,7 +91,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom line */}
         <div className="mt-10 border-t border-gray-700 pt-6 text-sm text-gray-500 text-center footer-watermark ">
           <p >  © 2024 Designed By Avishka Chamod</p>
         </div>

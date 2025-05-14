@@ -78,40 +78,43 @@ const products = [
 
 export default function LatestArrivals() {
   return (
-  <div className="latest-arrival-container flex justify-center">
-  <div className="bg-white w-full max-w-7xl">
-    <div className="mx-auto px-4 ">
-      <h2 className="latest-heading">Latest Arrivals!</h2>
+    <div className="latest-arrival-container flex justify-center">
+      <div className="bg-white w-full max-w-7xl">
+        <div className="mx-auto px-4">
+          <h2 className="latest-heading">Latest Arrivals!</h2>
 
-  
-      <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 product-list-latest">
-        {products.map((product) => (
-          <div key={product.id} className="group relative">
-            <img
-              alt={product.imageAlt}
-              src={product.imageSrc}
-              className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75"
-            />
-            <div className="mt-4 flex justify-between">
-              <div>
-                <h3 className="text-sm">
-                  <a href={product.href}>
-                    <span aria-hidden="true" className="absolute inset-0" />
-                    {product.name}
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+          <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 product-list-latest">
+            {products.map((product) => (
+              <div
+                key={product.id}
+                className="group relative flex flex-col h-full"
+              >
+                <img
+                  alt={product.name}
+                  src={product.imageSrc}
+                  className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75"
+                />
+                <div className="mt-4 flex flex-col justify-between flex-grow">
+                  <div>
+                    <h3 className="text-sm font-medium min-h-[3rem]">
+                      <a href={product.href}>
+                        <span aria-hidden="true" className="absolute inset-0" />
+                        {product.name}
+                      </a>
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-500">
+                      {product.color}
+                    </p>
+                  </div>
+                  <p className="text-sm font-medium text-gray-900 mt-2">
+                    {product.price}
+                  </p>
+                </div>
               </div>
-              <p className="text-sm font-medium text-gray-900">
-                {product.price}
-              </p>
-            </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
   );
 }
