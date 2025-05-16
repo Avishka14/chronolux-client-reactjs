@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -54,11 +55,11 @@ export default function Footer() {
             <div>
               <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Links</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-white">Home</a></li>
-                <li><a href="#" className="hover:text-white">Shop</a></li>
-                <li><a href="#" className="hover:text-white">Brands</a></li>
-                <li><a href="#" className="hover:text-white">Accessories</a></li>
-                <li><a href="#" className="hover:text-white">Offers</a></li>
+                <li className="hover:text-white">  <Link to="/"> Home </Link></li>
+                <li className="hover:text-white">  <Link to="/shop">   Shop </Link> </li>
+                <li className="hover:text-white"> <Link to="/brand">   Brands </Link> </li>
+                <li className="hover:text-white"> <Link to="/accessories">  Accessories </Link></li>
+                <li className="hover:text-white"> <Link to="/offers"> Offers  </Link></li>
               </ul>
             </div>
 
@@ -74,9 +75,9 @@ export default function Footer() {
             <div>
               <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-white">About Us</a></li>
-                <li><a href="#" className="hover:text-white">Contact Us</a></li>
-                <li><a href="#" className="hover:text-white">Join Us</a></li>
+                <li className="hover:text-white"> <Link to="/aboutus"> About Us </Link> </li>
+                <li className="hover:text-white"><Link to="/contact"> Contact </Link> </li>
+                <li className="hover:text-white"> <Link to ="/joinus" > Join Us </Link> </li>
               </ul>
             </div>
 
