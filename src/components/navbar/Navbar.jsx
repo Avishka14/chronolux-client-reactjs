@@ -7,6 +7,7 @@ import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOutlined";
 import SearchBox from "./SearchBox";
 import SideNav from "./SideNav";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [showSearchBox, setSearchBox] = useState(false);
@@ -29,11 +30,11 @@ export default function Navbar() {
 
         <div className="navbar-center">
           <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>Brands</li>
-            <li>Accessories</li>
-            <li>Offers</li>
+            <li>  <Link to="/"> Home </Link> </li>
+            <li>  <Link to="/shop">   Shop </Link> </li>
+            <li>  <Link to="/brand">   Brands </Link></li>
+            <li>  <Link to="/accessories">  Accessories </Link></li>
+            <li>  <Link to="/offers"> Offers  </Link></li>
           </ul>
         </div>
 
@@ -73,9 +74,9 @@ export default function Navbar() {
 
         <div className="small-nav-end">
           <ul>
-            <li>About Us</li>
-            <li>Contact</li>
-            <li>Join Us</li>
+           <li> <Link to="/aboutus"> About Us </Link> </li>
+           <li> <Link to="/contact"> Contact </Link> </li>
+           <li> <Link to ="/joinus" > Join Us </Link> </li>
           </ul>
         </div>
       </nav>
