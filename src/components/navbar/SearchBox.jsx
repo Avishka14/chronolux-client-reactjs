@@ -5,7 +5,7 @@ export default function SearchBox() {
   return (
     <div className="searchBox-container">
 
-      <div class="input-container">
+      <div className="input-container">
         <input type="text" id="customInput" className="custom-input" />
         <label htmlFor="customInput" className="custom-label">
           {" "}
