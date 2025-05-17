@@ -1,5 +1,6 @@
 import React from "react";
 import HighlightOffOutlinedIcon from "@mui/icons-material/HighlightOffOutlined";
+import { Link } from "react-router-dom";
 
 export default function SideNav({ onClose }) {
   return (
@@ -21,11 +22,11 @@ export default function SideNav({ onClose }) {
 
         <div className="main-link-tab">
           <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>Brands</li>
-            <li>Accessories</li>
-            <li>Offers</li>
+             <li> <Link to="/"> Home </Link> </li>
+             <li>  <Link to="/shop">   Shop </Link> </li>
+             <li>  <Link to="/brand">   Brands </Link></li>
+             <li>  <Link to="/accessories">  Accessories </Link></li>
+             <li>  <Link to="/offers"> Offers  </Link></li>
           </ul>
         </div>
 
@@ -35,9 +36,9 @@ export default function SideNav({ onClose }) {
 
         <div className="main-link-tab">
           <ul>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Join Us</li>
+            <li> <Link to="/aboutus"> About Us </Link> </li>
+            <li> <Link to="/contact"> Contact </Link> </li>
+            <li> <Link to ="/joinus" > Join Us </Link> </li>
           </ul>
         </div>
 
