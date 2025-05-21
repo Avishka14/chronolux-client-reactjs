@@ -7,6 +7,7 @@ import LatestArrivals from "../home_components/LatestArrivals";
 import Mens_Watches from "./route_components/Shop_Route/Mens_Watches";
 import Woman_Watches from "./route_components/Shop_Route/Woman_Watches";
 import Unisex_Watches from "./route_components/Shop_Route/Unisex_Watches";
+import Watch_Stock from "./route_components/Shop_Route/Watch_Stock";
 
 export default function Shop_Route() {
   return (
@@ -57,7 +58,7 @@ export default function Shop_Route() {
           <a href="#">Field </a>
           <a href="#">GMT </a>
           <a href="#">Skeleton </a>
-          <a href="">Pocket </a>
+          <a href="#">Pocket </a>
         </div>
       </div>
       <br />
@@ -67,6 +68,7 @@ export default function Shop_Route() {
       </div>
 
       <Shop_Offers/>
+    
 
       <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
         <hr />
@@ -87,12 +89,18 @@ export default function Shop_Route() {
       <Woman_Watches/>
 
        <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
-        <hr />
-        </div>
+       <hr />
+       </div>
 
       <Unisex_Watches/>
 
-      <Footer />
+        <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
+       <hr />
+       </div>
+
+       <Watch_Stock/>
+       
+       <Footer />
     </div>
   );
 }
