@@ -11,9 +11,11 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
      
           <div className="mb-10 md:mb-0 md:max-w-md">
+            <div style={{width:'250px', margin:'20px'}}>
+              <Link to={"/"}> <img src="src\assets\icons\chronolux-w-png.png" /> </Link>
+            </div>
+
             <div className="flex items-center space-x-2 mb-4">
-          
-              
               <span className="text-white font-semibold text-lg">ChronoLux</span>
             </div>
             <p className="text-sm">
@@ -51,7 +53,7 @@ export default function Footer() {
           </div>
 
    
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
             <div>
               <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Links</h3>
               <ul className="space-y-2">
@@ -81,14 +83,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Legal</h3>
-              <ul className="space-y-2">
-                <li><a href="#" className="hover:text-white">Terms of service</a></li>
-                <li><a href="#" className="hover:text-white">Privacy policy</a></li>
-                <li><a href="#" className="hover:text-white">License</a></li>
-              </ul>
-            </div>
           </div>
         </div>
 

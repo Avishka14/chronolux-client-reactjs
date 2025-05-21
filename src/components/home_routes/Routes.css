@@ -99,13 +99,6 @@
   display: none;
 }
 
-@media (min-width:1493px) {
-  .incentive-container{
-    height: 80vh;
-
-}
-
-}
 
 @media (max-width:406px) {
   .btn-shop-route{

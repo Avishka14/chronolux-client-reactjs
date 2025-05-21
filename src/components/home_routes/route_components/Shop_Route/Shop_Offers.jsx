@@ -1,5 +1,5 @@
 import React from "react";
-import "../Routes.css";
+import "../../Routes.css";
 
 const products = [
   {
@@ -84,7 +84,7 @@ export default function Shop_Offers() {
   return (
     <div>
       <div className="latest-arrival-container flex justify-center">
-        <div className="bg-white w-full max-w-7xl">
+        <div className="bg-white " style={{margin:'40px'}}>
           <div className="mx-auto px-4 ">
             <h2 className="latest-heading">Offers Available </h2>
 

@@ -79,7 +79,7 @@ const products = [
 export default function LatestArrivals() {
   return (
     <div className="latest-arrival-container flex justify-center">
-      <div className="bg-white w-full max-w-7xl">
+      <div className="bg-white " style={{margin:'40px'}}>
         <div className="mx-auto px-4">
           <h2 className="latest-heading">Latest Arrivals!</h2>
 
