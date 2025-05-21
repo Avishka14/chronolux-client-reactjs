@@ -75,9 +75,9 @@ const products = [
 export default function Unisex_Watches() {
   return (
     <div>
-        <div className="unisex-watches-container">
+        <div className="bg-white " style={{margin:'40px'}}>
         <div className="latest-arrival-container flex justify-center">
-          <div className="bg-white w-full max-w-7xl">
+          <div className="bg-white " style={{margin:'40px'}}>
             <div className="mx-auto px-4 ">
               <h2 className="latest-heading">Unisex Watches </h2>
 

@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import "./Routes.css";
 import Shop_Offers from "./route_components/Shop_Route/Shop_Offers";
+import LatestArrivals from "../home_components/LatestArrivals";
 import Mens_Watches from "./route_components/Shop_Route/Mens_Watches";
 import Woman_Watches from "./route_components/Shop_Route/Woman_Watches";
 import Unisex_Watches from "./route_components/Shop_Route/Unisex_Watches";
@@ -68,6 +69,12 @@ export default function Shop_Route() {
       <Shop_Offers/>
 
       <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
+        <hr />
+      </div>
+
+      <LatestArrivals/>
+      
+       <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
         <hr />
       </div>
 

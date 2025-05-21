@@ -77,7 +77,7 @@ export default function Mens_Watches() {
     <div>
       <div className="mens-watches-container">
         <div className="flex justify-center">
-          <div className="bg-white w-full max-w-7xl">
+          <div className="bg-white " style={{margin:'40px'}}>
             <div className="mx-auto px-4 ">
               <h2 className="latest-heading">Mens Watches </h2>
 
