@@ -1,5 +1,5 @@
 import React from "react";
-import "../Routes.css";
+import "../../Routes.css";
 
 const products = [
   {

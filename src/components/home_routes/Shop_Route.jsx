@@ -2,7 +2,10 @@ import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import "./Routes.css";
-import Shop_Offers from "./route_components/Shop_Offers";
+import Shop_Offers from "./route_components/Shop_Route/Shop_Offers";
+import Mens_Watches from "./route_components/Shop_Route/Mens_Watches";
+import Woman_Watches from "./route_components/Shop_Route/Woman_Watches";
+import Unisex_Watches from "./route_components/Shop_Route/Unisex_Watches";
 
 export default function Shop_Route() {
   return (
@@ -58,12 +61,29 @@ export default function Shop_Route() {
       </div>
       <br />
 
-      <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , }}>
-
+      <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
         <hr />
       </div>
 
       <Shop_Offers/>
+
+      <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
+        <hr />
+      </div>
+
+      <Mens_Watches/>
+      
+        <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
+        <hr />
+        </div>
+      
+      <Woman_Watches/>
+
+       <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
+        <hr />
+        </div>
+
+      <Unisex_Watches/>
 
       <Footer />
     </div>
