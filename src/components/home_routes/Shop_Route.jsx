@@ -9,6 +9,8 @@ import Woman_Watches from "./route_components/Shop_Route/Woman_Watches";
 import Unisex_Watches from "./route_components/Shop_Route/Unisex_Watches";
 import Watch_Stock from "./route_components/Shop_Route/Watch_Stock";
 
+
+
 export default function Shop_Route() {
   return (
     <div>
@@ -23,6 +25,7 @@ export default function Shop_Route() {
           </div>
         </div>
       </div>
+
 
       <div className="category-container-shop">
         <h1>Shop By Categories</h1>
@@ -52,7 +55,7 @@ export default function Shop_Route() {
         </div>
 
         <div className="small-shop-cat">
-           <a href="#">Quartz </a>
+          <a href="#">Quartz </a>
           <a href="#">Diver </a>
           <a href="#">Field </a>
           <a href="#">Field </a>
