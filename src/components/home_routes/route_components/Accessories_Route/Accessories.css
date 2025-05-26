@@ -1,0 +1,11 @@
+.heading-div{
+font-size: clamp(1rem, 1vw + 1rem, 2rem);
+font-weight: bold;
+color: #052a49;
+margin-top: 20px;
+margin: 10px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
