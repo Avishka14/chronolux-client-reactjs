@@ -4,11 +4,8 @@ import Footer from "../../components/footer/Footer";
 import "./Routes.css";
 import Shop_Offers from "./route_components/Shop_Route/Shop_Offers";
 import LatestArrivals from "../home_components/LatestArrivals";
-import Mens_Watches from "./route_components/Shop_Route/Mens_Watches";
-import Woman_Watches from "./route_components/Shop_Route/Woman_Watches";
-import Unisex_Watches from "./route_components/Shop_Route/Unisex_Watches";
 import Watch_Stock from "./route_components/Shop_Route/Watch_Stock";
-
+import ShopByGender from "./route_components/Shop_Route/ShopByGender";
 
 
 export default function Shop_Route() {
@@ -83,19 +80,7 @@ export default function Shop_Route() {
         <hr />
       </div>
 
-      <Mens_Watches/>
-      
-        <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
-        <hr />
-        </div>
-      
-      <Woman_Watches/>
-
-       <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
-       <hr />
-       </div>
-
-      <Unisex_Watches/>
+      <ShopByGender/>
 
         <div style={{width:'80vw' , marginLeft:'10%' , marginRight:'10%' , padding:'20px'}}>
        <hr />
