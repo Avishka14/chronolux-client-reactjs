@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import "./Routes.css";
-
+import Accessories_Grid from "./route_components/Accessories_Route/Accessories_Grid";
+import { accessories } from "./route_components/Accessories_Route/Accessories_Data";
 
 export default function Accessories_Route() {
   return (
@@ -21,13 +22,13 @@ export default function Accessories_Route() {
           </div>
         </div>
         
-        <div className="shop-accessories-container">
-              
-
-
-
-        </div>
-
+        {
+          accessories.map((brand) =>(
+            <Accessories_Grid key={brand.name} brand={brand} >
+              <h1>{brand.name}</h1>
+            </Accessories_Grid>
+          ))
+        }
 
       </div>
       <Footer />
