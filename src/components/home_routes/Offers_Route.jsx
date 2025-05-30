@@ -7,7 +7,7 @@ import {
   dailyDeals,
 } from "../reusable_components/WatchData";
 
-// Flatten all sections into a single array
+
 const watchData = [offeredWatches, firstPurchaseOffer, dailyDeals];
 
 export default function Offers_Route() {
@@ -18,7 +18,7 @@ export default function Offers_Route() {
         <div className="bg-white" style={{ margin: "40px" }}>
           <div className="mx-auto px-4">
             {watchData.map((sectionArray, index) => {
-              const section = sectionArray[0]; // Each import is a 1-item array
+              const section = sectionArray[0];
               return (
                 <div key={index}>
                   <h2 className="latest-heading mb-4">{section.name}</h2>
