@@ -787,7 +787,7 @@ export const dailyDeals = [
         name: "Breitling Navitimer B01 Chronograph",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Breitling Navitimer B01 Chronograph.jpg",
+          "src/assets/route-img/offers-route/Breitling Navitimer B01 Chronograph.jpg",
         originalPrice: "$9,200",
         offerPrice: "$8,750",
         color: "Breitling",
@@ -797,7 +797,7 @@ export const dailyDeals = [
         name: "Grand Seiko Spring Drive Snowflake",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Grand Seiko Spring Drive Snowflake.jpg",
+          "src/assets/route-img/offers-route/Grand Seiko Spring Drive Snowflake.jpg",
         originalPrice: "$6,200",
         offerPrice: "$5,950",
         color: "Grand Seiko",
@@ -806,7 +806,7 @@ export const dailyDeals = [
         id: 3,
         name: "Panerai Luminor Marina",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Panerai Luminor Marina.jpg",
+        imageSrc: "src/assets/route-img/offers-route/Panerai Luminor Marina.jpg",
         originalPrice: "$7,500",
         offerPrice: "$7,100",
         color: "Panerai",
@@ -816,7 +816,7 @@ export const dailyDeals = [
         name: "Zenith Chronomaster Sport",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Zenith Chronomaster Sport.jpg",
+          "src/assets/route-img/offers-route/Zenith Chronomaster Sport.jpg",
         originalPrice: "$11,000",
         offerPrice: "$10,500",
         color: "Zenith",
@@ -826,7 +826,7 @@ export const dailyDeals = [
         name: "IWC Portugieser Chronograph",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/IWC Portugieser Chronograph.jpg",
+          "src/assets/route-img/offers-route/IWC Portugieser Chronograph.jpg",
         originalPrice: "$8,100",
         offerPrice: "$7,850",
         color: "IWC",
@@ -836,7 +836,7 @@ export const dailyDeals = [
         name: "Montblanc 1858 Geosphere",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Montblanc 1858 Geosphere.jpg",
+          "src/assets/route-img/offers-route/Montblanc 1858 Geosphere.jpg",
         originalPrice: "$6,000",
         offerPrice: "$5,750",
         color: "Montblanc",
@@ -846,7 +846,7 @@ export const dailyDeals = [
         name: "Bell & Ross BR 03-92 Diver",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Bell & Ross BR 03-92 Diver.jpg",
+          "src/assets/route-img/offers-route/Bell & Ross BR 03-92 Diver.png",
         originalPrice: "$4,000",
         offerPrice: "$3,800",
         color: "Bell & Ross",
@@ -856,7 +856,7 @@ export const dailyDeals = [
         name: "Nomos Tangente Neomatik 41",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Nomos Tangente Neomatik 41.jpg",
+          "src/assets/route-img/offers-route/Nomos Tangente Neomatik 41.jpg",
         originalPrice: "$3,780",
         offerPrice: "$3,600",
         color: "Nomos",
@@ -873,7 +873,7 @@ export const firstPurchaseOffer = [
         id: 1,
         name: "Seiko Prospex Alpinist",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Seiko Prospex Alpinist.jpg",
+        imageSrc: "src/assets/route-img/offers-route/Seiko Prospex Alpinist.jpg",
         originalPrice: "$725",
         offerPrice: "$680",
         color: "Seiko",
@@ -883,7 +883,7 @@ export const firstPurchaseOffer = [
         name: "Longines Master Collection",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Longines Master Collection.jpg",
+          "src/assets/route-img/offers-route/Longines Master Collection.jpg",
         originalPrice: "$2,350",
         offerPrice: "$2,150",
         color: "Longines",
@@ -893,7 +893,7 @@ export const firstPurchaseOffer = [
         name: "Hamilton Khaki Field Mechanical",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Hamilton Khaki Field Mechanical.jpg",
+          "src/assets/route-img/offers-route/Hamilton Khaki Field Mechanical.jpg",
         originalPrice: "$595",
         offerPrice: "$550",
         color: "Hamilton",
@@ -903,7 +903,7 @@ export const firstPurchaseOffer = [
         name: "Baume & Mercier Clifton Baumatic",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Baume & Mercier Clifton Baumatic.jpg",
+          "src/assets/route-img/offers-route/Baume & Mercier Clifton Baumatic.jpg",
         originalPrice: "$3,000",
         offerPrice: "$2,750",
         color: "Baume & Mercier",
@@ -913,7 +913,7 @@ export const firstPurchaseOffer = [
         name: "Rado Captain Cook Bronze",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Rado Captain Cook Bronze.jpg",
+          "src/assets/route-img/offers-route/Rado Captain Cook Bronze.jpg",
         originalPrice: "$2,600",
         offerPrice: "$2,400",
         color: "Rado",
@@ -923,7 +923,7 @@ export const firstPurchaseOffer = [
         name: "Citizen Eco-Drive Promaster Diver",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Citizen Eco-Drive Promaster Diver.jpg",
+          "src/assets/route-img/offers-route/Citizen Eco-Drive Promaster Diver.jpg",
         originalPrice: "$495",
         offerPrice: "$450",
         color: "Citizen",
@@ -933,7 +933,7 @@ export const firstPurchaseOffer = [
         name: "Oris Aquis Date Calibre 400",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Oris Aquis Date Calibre 400.jpg",
+          "src/assets/route-img/offers-route/Oris Aquis Date Calibre 400.jpg",
         originalPrice: "$3,500",
         offerPrice: "$3,200",
         color: "Oris",
@@ -943,7 +943,7 @@ export const firstPurchaseOffer = [
         name: "Tudor Black Bay Fifty-Eight",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Tudor Black Bay Fifty-Eight.jpg",
+          "src/assets/route-img/offers-route/Tudor Black Bay Fifty-Eight.jpg",
         originalPrice: "$4,200",
         offerPrice: "$3,950",
         color: "Tudor",
