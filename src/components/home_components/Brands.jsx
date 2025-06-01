@@ -1,4 +1,6 @@
 import React from "react";
+import { brands } from "./brands-data/Brands_Data";
+import { Link } from "react-router-dom";
 
 export default function Brands() {
   return (
@@ -10,16 +12,12 @@ export default function Brands() {
       <div className="brands-container">
         <div className="brand-names-c">
           <ul className="brand-ul">
-            <li>Rolex</li>
-            <li>Patek Philippe</li>
-            <li>Audemars Piguet</li>
-            <li>Hublot</li>
-            <li>Richard Mille</li>
-            <li>Omega</li>
-            <li>Breitling</li>
-            <li>Panerai</li>
-            <li>Jaeger-LeCoultre</li>
-            <li>Breguet</li>
+            {brands.map((brand) => (
+              <li key={brand.id}>
+                <Link to={`/brands_singleview/${brand.id}`}>
+                {brand.brandName}</Link>
+              </li>
+            ))}
             <li className="brand-h1"> & More !</li>
           </ul>
         </div>
