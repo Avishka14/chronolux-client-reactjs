@@ -15,6 +15,7 @@ import OffersRoute from "../components/home_routes/Offers_Route";
 import AboutUsRoute from "../components/home_routes/AboutUs_Route";
 import ContactRoute from "../components/home_routes/Contact_Route";
 import JoinUsRoute from "../components/home_routes/JoinUs_Route";
+import Brands_SingleView from "../components/home_components/Brands_SingleView";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
           <Route path="/aboutus" element={<AboutUsRoute />} />
           <Route path="/contact" element={<ContactRoute />} />
           <Route path="/joinus" element={<JoinUsRoute />} />
+          <Route path ="/brands_singleview/:id" element={<Brands_SingleView/>} />
         </Routes>
       </Router>
     </div>
