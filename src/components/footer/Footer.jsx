@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/icons/chronolux-w-png.png';
 
 export default function Footer() {
   return (
@@ -12,7 +13,7 @@ export default function Footer() {
      
           <div className="mb-10 md:mb-0 md:max-w-md">
             <div style={{width:'250px', margin:'20px'}}>
-              <Link to={"/"}> <img src="src\assets\icons\chronolux-w-png.png" /> </Link>
+              <Link to={"/"}> <img src={Logo} /> </Link>
             </div>
 
             <div className="flex items-center space-x-2 mb-4">
