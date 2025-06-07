@@ -445,3 +445,49 @@ body, html {
 .brand-name-heading h1{
    color: red;
 }
+
+.first-section {
+  margin-top: 50px;
+}
+
+.text-container-brand-single-view {
+  margin-inline: 5%;
+}
+
+.brand-single-view-h2 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  color: #003f5ca9;
+  font-weight: bold;
+}
+
+.brand-name-heading-single-view {
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: bold;
+  color: #001b3f;
+  margin-top: 10px;
+}
+
+.brand-single-view-heading {
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  color: black;
+  margin-top:10px;
+}
+
+.single-view-brand-description {
+  color: gray;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.6;
+}
+
+
+@media (max-width: 758px) {
+  .brand-single-view-heading {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1020px) {
+  .img-single-view {
+    margin-top: 1%;
+  }
+}

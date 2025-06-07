@@ -1,0 +1,14 @@
+.breadcrumb-nav{
+    margin: 20px;
+}
+
+.anchor-text{
+    color: rgb(31, 31, 31);
+    cursor: pointer;
+    margin: 10px;
+}
+
+.span-text{
+    color: rgb(141, 141, 141);
+    margin: 10px;
+}
