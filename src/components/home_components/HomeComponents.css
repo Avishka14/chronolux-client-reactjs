@@ -442,3 +442,6 @@ body, html {
   margin-bottom: 30px;
 }
 
+.brand-name-heading h1{
+   color: red;
+}
