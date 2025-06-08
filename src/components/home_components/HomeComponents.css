@@ -448,6 +448,7 @@ body, html {
 
 .first-section {
   margin-top: 50px;
+ 
 }
 
 .text-container-brand-single-view {
@@ -484,10 +485,19 @@ body, html {
   .brand-single-view-heading {
     margin-top: 0;
   }
+
 }
 
 @media (max-width: 1020px) {
   .img-single-view {
     margin-top: 1%;
   }
+
 }
+
+.product-container{
+  margin-top: 0;
+  padding-top: 0;
+  margin: 40px;
+}
+

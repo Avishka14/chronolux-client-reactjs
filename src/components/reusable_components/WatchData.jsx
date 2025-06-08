@@ -79,7 +79,7 @@ export const watchBrands = [
     logo: "src/assets/home-img/patek-logo.png",
     watches: [
       {
-        id: 1,
+        id: 11,
         name: "Patek Philippe Calatrava 6119R",
         href: "#",
         imageSrc:
@@ -88,7 +88,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 2,
+        id: 12,
         name: "Patek Philippe Nautilus 5811/1G",
         href: "#",
         imageSrc:
@@ -97,7 +97,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 3,
+        id: 13,
         name: "Patek Philippe Aquanaut 5167A",
         href: "#",
         imageSrc:
@@ -106,7 +106,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 4,
+        id: 14,
         name: "Patek Philippe Grand Complications 5204R",
         href: "#",
         imageSrc:
@@ -115,7 +115,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 15,
         name: "Patek Philippe Golden Ellipse 5738R",
         href: "#",
         imageSrc:
@@ -124,7 +124,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 6,
+        id: 16,
         name: "Patek Philippe Perpetual Calendar 5327J",
         href: "#",
         imageSrc:
@@ -133,7 +133,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 7,
+        id: 17,
         name: "Patek Philippe World Time 5231J",
         href: "#",
         imageSrc:
@@ -142,7 +142,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 8,
+        id: 18,
         name: "Patek Philippe Complications Annual Calendar 5205R",
         href: "#",
         imageSrc:
@@ -158,7 +158,7 @@ export const watchBrands = [
     logo: "src/assets/home-img/hublot-logo.png",
     watches: [
       {
-        id: 1,
+        id: 21,
         name: "Patek Philippe Calatrava 6119R",
         href: "#",
         imageSrc:
@@ -167,7 +167,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 2,
+        id: 22,
         name: "Patek Philippe Nautilus 5811/1G",
         href: "#",
         imageSrc:
@@ -176,7 +176,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 3,
+        id: 23,
         name: "Patek Philippe Aquanaut 5167A",
         href: "#",
         imageSrc:
@@ -185,7 +185,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 4,
+        id: 24,
         name: "Patek Philippe Grand Complications 5204R",
         href: "#",
         imageSrc:
@@ -194,7 +194,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 25,
         name: "Patek Philippe Golden Ellipse 5738R",
         href: "#",
         imageSrc:
@@ -203,7 +203,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 6,
+        id: 26,
         name: "Patek Philippe Perpetual Calendar 5327J",
         href: "#",
         imageSrc:
@@ -212,7 +212,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 7,
+        id: 27,
         name: "Patek Philippe World Time 5231J",
         href: "#",
         imageSrc:
@@ -221,7 +221,7 @@ export const watchBrands = [
         color: "Patek Philippe",
       },
       {
-        id: 8,
+        id: 28,
         name: "Patek Philippe Complications Annual Calendar 5205R",
         href: "#",
         imageSrc:
@@ -238,7 +238,7 @@ export const genderOptions = [
     name: "Men's Watches",
     watches: [
       {
-        id: 1,
+        id: 31,
         name: "Rolex Submariner Date",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
@@ -246,7 +246,7 @@ export const genderOptions = [
         color: "Rolex",
       },
       {
-        id: 2,
+        id: 32,
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
@@ -255,7 +255,7 @@ export const genderOptions = [
         color: "Omega",
       },
       {
-        id: 3,
+        id: 33,
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
@@ -264,7 +264,7 @@ export const genderOptions = [
         color: "Audemars Piguet",
       },
       {
-        id: 4,
+        id: 34,
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
@@ -273,7 +273,7 @@ export const genderOptions = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 35,
         name: "Cartier Tank Must",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
@@ -281,7 +281,7 @@ export const genderOptions = [
         color: "Cartier",
       },
       {
-        id: 6,
+        id: 36,
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
@@ -290,7 +290,7 @@ export const genderOptions = [
         color: "TAG Heuer",
       },
       {
-        id: 7,
+        id: 37,
         name: "Hublot Big Bang Unico",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
@@ -298,7 +298,7 @@ export const genderOptions = [
         color: "Hublot",
       },
       {
-        id: 8,
+        id: 38,
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
@@ -312,7 +312,7 @@ export const genderOptions = [
     name: "Women's Watches",
     watches: [
       {
-        id: 1,
+        id: 41,
         name: "Rolex Submariner Date",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
@@ -320,7 +320,7 @@ export const genderOptions = [
         color: "Rolex",
       },
       {
-        id: 2,
+        id: 42,
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
@@ -329,7 +329,7 @@ export const genderOptions = [
         color: "Omega",
       },
       {
-        id: 3,
+        id: 43,
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
@@ -338,7 +338,7 @@ export const genderOptions = [
         color: "Audemars Piguet",
       },
       {
-        id: 4,
+        id: 44,
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
@@ -347,7 +347,7 @@ export const genderOptions = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 45,
         name: "Cartier Tank Must",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
@@ -355,7 +355,7 @@ export const genderOptions = [
         color: "Cartier",
       },
       {
-        id: 6,
+        id: 46,
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
@@ -364,7 +364,7 @@ export const genderOptions = [
         color: "TAG Heuer",
       },
       {
-        id: 7,
+        id: 47,
         name: "Hublot Big Bang Unico",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
@@ -372,7 +372,7 @@ export const genderOptions = [
         color: "Hublot",
       },
       {
-        id: 8,
+        id: 48,
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
@@ -386,7 +386,7 @@ export const genderOptions = [
     name: "Unisex Watches",
     watches: [
       {
-        id: 1,
+        id: 51,
         name: "Rolex Submariner Date",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
@@ -394,7 +394,7 @@ export const genderOptions = [
         color: "Rolex",
       },
       {
-        id: 2,
+        id: 52,
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
@@ -403,7 +403,7 @@ export const genderOptions = [
         color: "Omega",
       },
       {
-        id: 3,
+        id: 53,
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
@@ -412,7 +412,7 @@ export const genderOptions = [
         color: "Audemars Piguet",
       },
       {
-        id: 4,
+        id: 54,
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
@@ -421,7 +421,7 @@ export const genderOptions = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 55,
         name: "Cartier Tank Must",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
@@ -429,7 +429,7 @@ export const genderOptions = [
         color: "Cartier",
       },
       {
-        id: 6,
+        id: 56,
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
@@ -438,7 +438,7 @@ export const genderOptions = [
         color: "TAG Heuer",
       },
       {
-        id: 7,
+        id: 57,
         name: "Hublot Big Bang Unico",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
@@ -446,7 +446,7 @@ export const genderOptions = [
         color: "Hublot",
       },
       {
-        id: 8,
+        id: 58,
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
@@ -464,7 +464,7 @@ export const bestSellingWatches = [
     logo: "",
     watches: [
       {
-        id: 1,
+        id: 1654,
         name: "Rolex Submariner Date",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
@@ -472,7 +472,7 @@ export const bestSellingWatches = [
         color: "Rolex",
       },
       {
-        id: 2,
+        id: 2453,
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
@@ -481,7 +481,7 @@ export const bestSellingWatches = [
         color: "Omega",
       },
       {
-        id: 3,
+        id: 3543,
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
@@ -490,7 +490,7 @@ export const bestSellingWatches = [
         color: "Audemars Piguet",
       },
       {
-        id: 4,
+        id: 4755,
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
@@ -499,7 +499,7 @@ export const bestSellingWatches = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 5643,
         name: "Cartier Tank Must",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
@@ -507,7 +507,7 @@ export const bestSellingWatches = [
         color: "Cartier",
       },
       {
-        id: 6,
+        id: 6547,
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
@@ -516,7 +516,7 @@ export const bestSellingWatches = [
         color: "TAG Heuer",
       },
       {
-        id: 7,
+        id: 7976,
         name: "Hublot Big Bang Unico",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
@@ -524,7 +524,7 @@ export const bestSellingWatches = [
         color: "Hublot",
       },
       {
-        id: 8,
+        id: 8564,
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
@@ -541,7 +541,7 @@ export const latestArrivals = [
     name: "Latest Arrivals",
     watches: [
       {
-        id: 1,
+        id: 1965,
         name: "Rolex Oyster Perpetual 41",
         href: "#",
         imageSrc:
@@ -550,7 +550,7 @@ export const latestArrivals = [
         color: "Rolex",
       },
       {
-        id: 2,
+        id: 2654,
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
@@ -559,7 +559,7 @@ export const latestArrivals = [
         color: "Omega",
       },
       {
-        id: 3,
+        id: 3466,
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
@@ -568,7 +568,7 @@ export const latestArrivals = [
         color: "Audemars Piguet",
       },
       {
-        id: 4,
+        id: 4646,
         name: "Patek Philippe Calatrava 6119R",
         href: "#",
         imageSrc:
@@ -577,7 +577,7 @@ export const latestArrivals = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 5654,
         name: "Cartier Santos de Cartier Large Model",
         href: "#",
         imageSrc:
@@ -586,7 +586,7 @@ export const latestArrivals = [
         color: "Cartier",
       },
       {
-        id: 6,
+        id: 6342,
         name: "Tag Heuer Carrera Chronograph 42mm",
         href: "#",
         imageSrc:
@@ -595,7 +595,7 @@ export const latestArrivals = [
         color: "TAG Heuer",
       },
       {
-        id: 7,
+        id: 7543,
         name: "Hublot Classic Fusion Titanium 42mm",
         href: "#",
         imageSrc:
@@ -604,7 +604,7 @@ export const latestArrivals = [
         color: "Hublot",
       },
       {
-        id: 8,
+        id: 8786,
         name: "Breitling Navitimer B01 Chronograph 43",
         href: "#",
         imageSrc:
@@ -621,7 +621,7 @@ export const offeredWatches = [
     name: "Offers Available",
     watches: [
       {
-        id: 1,
+        id: 1653,
         name: "Rolex Submariner Date",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
@@ -630,7 +630,7 @@ export const offeredWatches = [
         color: "Rolex",
       },
       {
-        id: 2,
+        id: 2345,
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
@@ -640,7 +640,7 @@ export const offeredWatches = [
         color: "Omega",
       },
       {
-        id: 3,
+        id: 3643,
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
@@ -650,7 +650,7 @@ export const offeredWatches = [
         color: "Audemars Piguet",
       },
       {
-        id: 4,
+        id: 4432,
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
@@ -660,7 +660,7 @@ export const offeredWatches = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 5245,
         name: "Cartier Tank Must",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
@@ -669,7 +669,7 @@ export const offeredWatches = [
         color: "Cartier",
       },
       {
-        id: 6,
+        id: 6535,
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
@@ -679,7 +679,7 @@ export const offeredWatches = [
         color: "TAG Heuer",
       },
       {
-        id: 7,
+        id: 7532,
         name: "Hublot Big Bang Unico",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
@@ -688,7 +688,7 @@ export const offeredWatches = [
         color: "Hublot",
       },
       {
-        id: 8,
+        id: 8235,
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
@@ -706,7 +706,7 @@ export const products = [
     name: "Watch Stock",
     watches: [
       {
-        id: 1,
+        id: 1743,
         name: "Rolex Submariner Date",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
@@ -714,7 +714,7 @@ export const products = [
         color: "Rolex",
       },
       {
-        id: 2,
+        id: 2376,
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
@@ -723,7 +723,7 @@ export const products = [
         color: "Omega",
       },
       {
-        id: 3,
+        id: 3876,
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
@@ -732,7 +732,7 @@ export const products = [
         color: "Audemars Piguet",
       },
       {
-        id: 4,
+        id: 4543,
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
@@ -741,7 +741,7 @@ export const products = [
         color: "Patek Philippe",
       },
       {
-        id: 5,
+        id: 5464,
         name: "Cartier Tank Must",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
@@ -749,7 +749,7 @@ export const products = [
         color: "Cartier",
       },
       {
-        id: 6,
+        id: 6543,
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
@@ -758,7 +758,7 @@ export const products = [
         color: "TAG Heuer",
       },
       {
-        id: 7,
+        id: 7366,
         name: "Hublot Big Bang Unico",
         href: "#",
         imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
@@ -766,7 +766,7 @@ export const products = [
         color: "Hublot",
       },
       {
-        id: 8,
+        id: 8343,
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
@@ -783,7 +783,7 @@ export const dailyDeals = [
     name: "Daily Deals",
     watches: [
       {
-        id: 1,
+        id: 1654,
         name: "Breitling Navitimer B01 Chronograph",
         href: "#",
         imageSrc:
@@ -793,7 +793,7 @@ export const dailyDeals = [
         color: "Breitling",
       },
       {
-        id: 2,
+        id: 2567,
         name: "Grand Seiko Spring Drive Snowflake",
         href: "#",
         imageSrc:
@@ -803,7 +803,7 @@ export const dailyDeals = [
         color: "Grand Seiko",
       },
       {
-        id: 3,
+        id: 3975,
         name: "Panerai Luminor Marina",
         href: "#",
         imageSrc: "src/assets/route-img/offers-route/Panerai Luminor Marina.jpg",
@@ -812,7 +812,7 @@ export const dailyDeals = [
         color: "Panerai",
       },
       {
-        id: 4,
+        id: 4567,
         name: "Zenith Chronomaster Sport",
         href: "#",
         imageSrc:
@@ -822,7 +822,7 @@ export const dailyDeals = [
         color: "Zenith",
       },
       {
-        id: 5,
+        id: 5654,
         name: "IWC Portugieser Chronograph",
         href: "#",
         imageSrc:
@@ -832,7 +832,7 @@ export const dailyDeals = [
         color: "IWC",
       },
       {
-        id: 6,
+        id: 6456,
         name: "Montblanc 1858 Geosphere",
         href: "#",
         imageSrc:
@@ -842,7 +842,7 @@ export const dailyDeals = [
         color: "Montblanc",
       },
       {
-        id: 7,
+        id: 7532,
         name: "Bell & Ross BR 03-92 Diver",
         href: "#",
         imageSrc:
@@ -852,7 +852,7 @@ export const dailyDeals = [
         color: "Bell & Ross",
       },
       {
-        id: 8,
+        id: 8124,
         name: "Nomos Tangente Neomatik 41",
         href: "#",
         imageSrc:
@@ -870,7 +870,7 @@ export const firstPurchaseOffer = [
     name: "First Purchase Offer",
     watches: [
       {
-        id: 1,
+        id: 1121,
         name: "Seiko Prospex Alpinist",
         href: "#",
         imageSrc: "src/assets/route-img/offers-route/Seiko Prospex Alpinist.jpg",
@@ -879,7 +879,7 @@ export const firstPurchaseOffer = [
         color: "Seiko",
       },
       {
-        id: 2,
+        id: 2212,
         name: "Longines Master Collection",
         href: "#",
         imageSrc:
@@ -889,7 +889,7 @@ export const firstPurchaseOffer = [
         color: "Longines",
       },
       {
-        id: 3,
+        id: 3323,
         name: "Hamilton Khaki Field Mechanical",
         href: "#",
         imageSrc:
@@ -899,7 +899,7 @@ export const firstPurchaseOffer = [
         color: "Hamilton",
       },
       {
-        id: 4,
+        id: 4234,
         name: "Baume & Mercier Clifton Baumatic",
         href: "#",
         imageSrc:
@@ -909,7 +909,7 @@ export const firstPurchaseOffer = [
         color: "Baume & Mercier",
       },
       {
-        id: 5,
+        id: 5532,
         name: "Rado Captain Cook Bronze",
         href: "#",
         imageSrc:
@@ -919,7 +919,7 @@ export const firstPurchaseOffer = [
         color: "Rado",
       },
       {
-        id: 6,
+        id: 6423,
         name: "Citizen Eco-Drive Promaster Diver",
         href: "#",
         imageSrc:
@@ -929,7 +929,7 @@ export const firstPurchaseOffer = [
         color: "Citizen",
       },
       {
-        id: 7,
+        id: 7453,
         name: "Oris Aquis Date Calibre 400",
         href: "#",
         imageSrc:
@@ -939,7 +939,7 @@ export const firstPurchaseOffer = [
         color: "Oris",
       },
       {
-        id: 8,
+        id: 8453,
         name: "Tudor Black Bay Fifty-Eight",
         href: "#",
         imageSrc:
