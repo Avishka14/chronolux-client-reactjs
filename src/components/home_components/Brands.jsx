@@ -24,38 +24,38 @@ export default function Brands() {
 
         <div className="brand-watch-photos-container">
           <div className="watch-p-c">
-            <img src="src\assets\home-img\rolex.jpg" />
+            <img src="\assets\home-img\rolex.jpg" />
           </div>
 
           <div className="watch-p-c">
-            <img src="src\assets\home-img\patek-philippe.jpg" />
+            <img src="\assets\home-img\patek-philippe.jpg" />
           </div>
 
           <div className="watch-p-c">
-            <img src="src\assets\home-img\audemars.jpg" />
+            <img src="\assets\home-img\audemars.jpg" />
           </div>
 
           <div className="watch-p-c">
-            <img src="src\assets\home-img\hublot.jpg" />
+            <img src="\assets\home-img\hublot.jpg" />
           </div>
         </div>
 
         <div className="image-slider">
           <div className="slider-track">
             <div className="watch-p-c-slide">
-              <img src="src\assets\home-img\rolex.jpg" />
+              <img src="\assets\home-img\rolex.jpg" />
             </div>
 
             <div className="watch-p-c-slide">
-              <img src="src\assets\home-img\patek-philippe.jpg" />
+              <img src="\assets\home-img\patek-philippe.jpg" />
             </div>
 
             <div className="watch-p-c-slide">
-              <img src="src\assets\home-img\audemars.jpg" />
+              <img src="\assets\home-img\audemars.jpg" />
             </div>
 
             <div className="watch-p-c-slide">
-              <img src="src\assets\home-img\hublot.jpg" />
+              <img src="\assets\home-img\hublot.jpg" />
             </div>
           </div>
         </div>

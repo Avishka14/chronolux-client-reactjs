@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/icons/chronolux-w-png.png';
+import Logo from '/assets/icons/chronolux-w-png.png';
 
 export default function Footer() {
   return (

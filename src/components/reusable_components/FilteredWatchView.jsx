@@ -11,7 +11,7 @@ const FilteredWatchView = ({brandName}) => {
         {watches.map((watch) => (
           <div key={watch.id} className="group relative">
             <img
-              src={watch.imageSrc}
+              src={watch.imageSrc} 
               alt={watch.name}
               className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75"
             />

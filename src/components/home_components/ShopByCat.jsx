@@ -4,19 +4,19 @@ const callouts = [
   {
     key :'1',
     description: "Men's Collection",
-    imageSrc: 'src/assets/home-img/shop-by/mens.jpg',
+    imageSrc: '/assets/home-img/shop-by/mens.jpg',
     href: '#',
   },
   {
     key :'2',
     description: "Woman's Collection",
-    imageSrc: 'src/assets/home-img/shop-by/womans.jpg',
+    imageSrc: '/assets/home-img/shop-by/womans.jpg',
     href: '#',
   },
    {
     key :'3',
     description: "Unisex Collection",
-    imageSrc: 'src/assets/home-img/shop-by/unisex.jpg',
+    imageSrc: '/assets/home-img/shop-by/unisex.jpg',
     href: '#',
   },
 ]

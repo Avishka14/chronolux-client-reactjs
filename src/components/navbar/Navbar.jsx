@@ -8,7 +8,7 @@ import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOu
 import SearchBox from "./SearchBox";
 import SideNav from "./SideNav";
 import { Link } from "react-router-dom";
-import MiniLogo from "../../assets/icons/chronolux-w-png.png";  
+import MiniLogo from "/assets/icons/chronolux-w-png.png";  
 
 export default function Navbar() {
   const [showSearchBox, setSearchBox] = useState(false);

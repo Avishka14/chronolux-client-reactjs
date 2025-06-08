@@ -16,7 +16,7 @@
     width: 90vw;
     height: 50vh;
     border-radius: 10px;
-    background-image: url("src/assets/route-img/shop-route/incentive-img.jpg");
+    background-image: url("/assets/route-img/shop-route/incentive-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
