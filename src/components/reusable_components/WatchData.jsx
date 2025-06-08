@@ -1,14 +1,14 @@
 export const watchBrands = [
   {
     name: "Rolex",
-    logo: "src/assets/home-img/rolex-logo.png",
+    logo: "/assets/home-img/rolex-logo.png",
     watches: [
       {
         id: 1,
         name: "Rolex Oyster Perpetual 41",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/rolex/Rolex Oyster Perpetual 41.jpg",
+          "/assets/home-img/watch/rolex/Rolex Oyster Perpetual 41.jpg",
         price: "$6,400",
         color: "Rolex",
       },
@@ -16,7 +16,7 @@ export const watchBrands = [
         id: 2,
         name: "Rolex Submariner Date",
         href: "#",
-        imageSrc: "src/assets/home-img/watch/rolex/Rolex Submariner Date.jpg",
+        imageSrc: "/assets/home-img/watch/rolex/Rolex Submariner Date.jpg",
         price: "$10,250",
         color: "Rolex",
       },
@@ -25,7 +25,7 @@ export const watchBrands = [
         name: "Rolex Cosmograph Daytona",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/rolex/Rolex Cosmograph Daytona.jpg",
+          "/assets/home-img/watch/rolex/Rolex Cosmograph Daytona.jpg",
         price: "$15,500",
         color: "Rolex",
       },
@@ -33,7 +33,7 @@ export const watchBrands = [
         id: 4,
         name: "Rolex Datejust 41",
         href: "#",
-        imageSrc: "src/assets/home-img/watch/rolex/Rolex Datejust 41.jpg",
+        imageSrc: "/assets/home-img/watch/rolex/Rolex Datejust 41.jpg",
         price: "$8,300",
         color: "Rolex",
       },
@@ -42,7 +42,7 @@ export const watchBrands = [
         name: "Rolex GMT-Master II 'Pepsi'",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/rolex/Rolex GMT-Master II 'Pepsi'.jpg",
+          "/assets/home-img/watch/rolex/Rolex GMT-Master II 'Pepsi'.jpg",
         price: "$11,950",
         color: "Rolex",
       },
@@ -50,7 +50,7 @@ export const watchBrands = [
         id: 6,
         name: "Rolex Day-Date 40",
         href: "#",
-        imageSrc: "src/assets/home-img/watch/rolex/Rolex Day-Date 40.jpg",
+        imageSrc: "/assets/home-img/watch/rolex/Rolex Day-Date 40.jpg",
         price: "$38,500",
         color: "Rolex",
       },
@@ -59,7 +59,7 @@ export const watchBrands = [
         name: "Rolex Sea-Dweller Deepsea",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/rolex/Rolex Sea-Dweller Deepsea.jpg",
+          "/assets/home-img/watch/rolex/Rolex Sea-Dweller Deepsea.jpg",
         price: "$13,250",
         color: "Rolex",
       },
@@ -67,7 +67,7 @@ export const watchBrands = [
         id: 8,
         name: "Rolex Yacht-Master 40",
         href: "#",
-        imageSrc: "src/assets/home-img/watch/rolex/Rolex Yacht-Master 40.jpg",
+        imageSrc: "/assets/home-img/watch/rolex/Rolex Yacht-Master 40.jpg",
         price: "$14,050",
         color: "Rolex",
       },
@@ -76,14 +76,14 @@ export const watchBrands = [
 
   {
     name: "patek philippe",
-    logo: "src/assets/home-img/patek-logo.png",
+    logo: "/assets/home-img/patek-logo.png",
     watches: [
       {
         id: 11,
         name: "Patek Philippe Calatrava 6119R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Calatrava 6119R.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Calatrava 6119R.jpg",
         price: "$31,940",
         color: "Patek Philippe",
       },
@@ -92,7 +92,7 @@ export const watchBrands = [
         name: "Patek Philippe Nautilus 5811/1G",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Nautilus 5811 -1G.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Nautilus 5811 -1G.jpg",
         price: "$69,785",
         color: "Patek Philippe",
       },
@@ -101,7 +101,7 @@ export const watchBrands = [
         name: "Patek Philippe Aquanaut 5167A",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Aquanaut 5167A.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Aquanaut 5167A.jpg",
         price: "$44,500",
         color: "Patek Philippe",
       },
@@ -110,7 +110,7 @@ export const watchBrands = [
         name: "Patek Philippe Grand Complications 5204R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Grand Complications 5204R.jpeg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Grand Complications 5204R.jpeg",
         price: "$308,000",
         color: "Patek Philippe",
       },
@@ -119,7 +119,7 @@ export const watchBrands = [
         name: "Patek Philippe Golden Ellipse 5738R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Golden Ellipse 5738R.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Golden Ellipse 5738R.jpg",
         price: "$39,030",
         color: "Patek Philippe",
       },
@@ -128,7 +128,7 @@ export const watchBrands = [
         name: "Patek Philippe Perpetual Calendar 5327J",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Perpetual Calendar 5327J.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Perpetual Calendar 5327J.jpg",
         price: "$98,250",
         color: "Patek Philippe",
       },
@@ -137,7 +137,7 @@ export const watchBrands = [
         name: "Patek Philippe World Time 5231J",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe World Time 5231J.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe World Time 5231J.jpg",
         price: "$111,500",
         color: "Patek Philippe",
       },
@@ -146,7 +146,7 @@ export const watchBrands = [
         name: "Patek Philippe Complications Annual Calendar 5205R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Complications Annual Calendar 5205R.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Complications Annual Calendar 5205R.jpg",
         price: "$53,500",
         color: "Patek Philippe",
       },
@@ -155,14 +155,14 @@ export const watchBrands = [
 
   {
     name: "hublot",
-    logo: "src/assets/home-img/hublot-logo.png",
+    logo: "/assets/home-img/hublot-logo.png",
     watches: [
       {
         id: 21,
         name: "Patek Philippe Calatrava 6119R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Calatrava 6119R.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Calatrava 6119R.jpg",
         price: "$31,940",
         color: "Patek Philippe",
       },
@@ -171,7 +171,7 @@ export const watchBrands = [
         name: "Patek Philippe Nautilus 5811/1G",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Nautilus 5811 -1G.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Nautilus 5811 -1G.jpg",
         price: "$69,785",
         color: "Patek Philippe",
       },
@@ -180,7 +180,7 @@ export const watchBrands = [
         name: "Patek Philippe Aquanaut 5167A",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Aquanaut 5167A.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Aquanaut 5167A.jpg",
         price: "$44,500",
         color: "Patek Philippe",
       },
@@ -189,7 +189,7 @@ export const watchBrands = [
         name: "Patek Philippe Grand Complications 5204R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Grand Complications 5204R.jpeg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Grand Complications 5204R.jpeg",
         price: "$308,000",
         color: "Patek Philippe",
       },
@@ -198,7 +198,7 @@ export const watchBrands = [
         name: "Patek Philippe Golden Ellipse 5738R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Golden Ellipse 5738R.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Golden Ellipse 5738R.jpg",
         price: "$39,030",
         color: "Patek Philippe",
       },
@@ -207,7 +207,7 @@ export const watchBrands = [
         name: "Patek Philippe Perpetual Calendar 5327J",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Perpetual Calendar 5327J.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Perpetual Calendar 5327J.jpg",
         price: "$98,250",
         color: "Patek Philippe",
       },
@@ -216,7 +216,7 @@ export const watchBrands = [
         name: "Patek Philippe World Time 5231J",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe World Time 5231J.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe World Time 5231J.jpg",
         price: "$111,500",
         color: "Patek Philippe",
       },
@@ -225,7 +225,7 @@ export const watchBrands = [
         name: "Patek Philippe Complications Annual Calendar 5205R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/watch/patek-philippe/Patek Philippe Complications Annual Calendar 5205R.jpg",
+          "/assets/home-img/watch/patek-philippe/Patek Philippe Complications Annual Calendar 5205R.jpg",
         price: "$53,500",
         color: "Patek Philippe",
       },
@@ -241,7 +241,7 @@ export const genderOptions = [
         id: 31,
         name: "Rolex Submariner Date",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
+        imageSrc: "/assets/home-img/best-selling/Rolex Submariner Date.jpg",
         price: "$10,250",
         color: "Rolex",
       },
@@ -250,7 +250,7 @@ export const genderOptions = [
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
+          "/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
         price: "$7,000",
         color: "Omega",
       },
@@ -259,7 +259,7 @@ export const genderOptions = [
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
+          "/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
         price: "$35,000",
         color: "Audemars Piguet",
       },
@@ -268,7 +268,7 @@ export const genderOptions = [
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
+          "/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
         price: "$120,000",
         color: "Patek Philippe",
       },
@@ -276,7 +276,7 @@ export const genderOptions = [
         id: 35,
         name: "Cartier Tank Must",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
+        imageSrc: "/assets/home-img/best-selling/Cartier Tank Must.jpg",
         price: "$3,000",
         color: "Cartier",
       },
@@ -285,7 +285,7 @@ export const genderOptions = [
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
+          "/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
         price: "$6,550",
         color: "TAG Heuer",
       },
@@ -293,7 +293,7 @@ export const genderOptions = [
         id: 37,
         name: "Hublot Big Bang Unico",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
+        imageSrc: "/assets/home-img/best-selling/Hublot Big Bang Unico.png",
         price: "$21,000",
         color: "Hublot",
       },
@@ -302,7 +302,7 @@ export const genderOptions = [
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
+          "/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
         price: "$695",
         color: "Tissot",
       },
@@ -315,7 +315,7 @@ export const genderOptions = [
         id: 41,
         name: "Rolex Submariner Date",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
+        imageSrc: "/assets/home-img/best-selling/Rolex Submariner Date.jpg",
         price: "$10,250",
         color: "Rolex",
       },
@@ -324,7 +324,7 @@ export const genderOptions = [
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
+          "/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
         price: "$7,000",
         color: "Omega",
       },
@@ -333,7 +333,7 @@ export const genderOptions = [
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
+          "/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
         price: "$35,000",
         color: "Audemars Piguet",
       },
@@ -342,7 +342,7 @@ export const genderOptions = [
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
+          "/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
         price: "$120,000",
         color: "Patek Philippe",
       },
@@ -350,7 +350,7 @@ export const genderOptions = [
         id: 45,
         name: "Cartier Tank Must",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
+        imageSrc: "/assets/home-img/best-selling/Cartier Tank Must.jpg",
         price: "$3,000",
         color: "Cartier",
       },
@@ -359,7 +359,7 @@ export const genderOptions = [
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
+          "/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
         price: "$6,550",
         color: "TAG Heuer",
       },
@@ -367,7 +367,7 @@ export const genderOptions = [
         id: 47,
         name: "Hublot Big Bang Unico",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
+        imageSrc: "/assets/home-img/best-selling/Hublot Big Bang Unico.png",
         price: "$21,000",
         color: "Hublot",
       },
@@ -376,7 +376,7 @@ export const genderOptions = [
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
+          "/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
         price: "$695",
         color: "Tissot",
       },
@@ -389,7 +389,7 @@ export const genderOptions = [
         id: 51,
         name: "Rolex Submariner Date",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
+        imageSrc: "/assets/home-img/best-selling/Rolex Submariner Date.jpg",
         price: "$10,250",
         color: "Rolex",
       },
@@ -398,7 +398,7 @@ export const genderOptions = [
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
+          "/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
         price: "$7,000",
         color: "Omega",
       },
@@ -407,7 +407,7 @@ export const genderOptions = [
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
+          "/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
         price: "$35,000",
         color: "Audemars Piguet",
       },
@@ -416,7 +416,7 @@ export const genderOptions = [
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
+          "/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
         price: "$120,000",
         color: "Patek Philippe",
       },
@@ -424,7 +424,7 @@ export const genderOptions = [
         id: 55,
         name: "Cartier Tank Must",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
+        imageSrc: "/assets/home-img/best-selling/Cartier Tank Must.jpg",
         price: "$3,000",
         color: "Cartier",
       },
@@ -433,7 +433,7 @@ export const genderOptions = [
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
+          "/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
         price: "$6,550",
         color: "TAG Heuer",
       },
@@ -441,7 +441,7 @@ export const genderOptions = [
         id: 57,
         name: "Hublot Big Bang Unico",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
+        imageSrc: "/assets/home-img/best-selling/Hublot Big Bang Unico.png",
         price: "$21,000",
         color: "Hublot",
       },
@@ -450,7 +450,7 @@ export const genderOptions = [
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
+          "/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
         price: "$695",
         color: "Tissot",
       },
@@ -467,7 +467,7 @@ export const bestSellingWatches = [
         id: 1654,
         name: "Rolex Submariner Date",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
+        imageSrc: "/assets/home-img/best-selling/Rolex Submariner Date.jpg",
         price: "$10,250",
         color: "Rolex",
       },
@@ -476,7 +476,7 @@ export const bestSellingWatches = [
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
+          "/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
         price: "$7,000",
         color: "Omega",
       },
@@ -485,7 +485,7 @@ export const bestSellingWatches = [
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
+          "/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
         price: "$35,000",
         color: "Audemars Piguet",
       },
@@ -494,7 +494,7 @@ export const bestSellingWatches = [
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
+          "/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
         price: "$120,000",
         color: "Patek Philippe",
       },
@@ -502,7 +502,7 @@ export const bestSellingWatches = [
         id: 5643,
         name: "Cartier Tank Must",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
+        imageSrc: "/assets/home-img/best-selling/Cartier Tank Must.jpg",
         price: "$3,000",
         color: "Cartier",
       },
@@ -511,7 +511,7 @@ export const bestSellingWatches = [
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
+          "/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
         price: "$6,550",
         color: "TAG Heuer",
       },
@@ -519,7 +519,7 @@ export const bestSellingWatches = [
         id: 7976,
         name: "Hublot Big Bang Unico",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
+        imageSrc: "/assets/home-img/best-selling/Hublot Big Bang Unico.png",
         price: "$21,000",
         color: "Hublot",
       },
@@ -528,7 +528,7 @@ export const bestSellingWatches = [
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
+          "/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
         price: "$695",
         color: "Tissot",
       },
@@ -545,7 +545,7 @@ export const latestArrivals = [
         name: "Rolex Oyster Perpetual 41",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Rolex Oyster Perpetual 41.jpg",
+          "/assets/home-img/latest-arrivals/Rolex Oyster Perpetual 41.jpg",
         price: "$6,400",
         color: "Rolex",
       },
@@ -554,7 +554,7 @@ export const latestArrivals = [
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Omega Speedmaster Moonwatch Professional.jpg",
+          "/assets/home-img/latest-arrivals/Omega Speedmaster Moonwatch Professional.jpg",
         price: "$7,000",
         color: "Omega",
       },
@@ -563,7 +563,7 @@ export const latestArrivals = [
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Audemars Piguet Royal Oak Selfwinding.png",
+          "/assets/home-img/latest-arrivals/Audemars Piguet Royal Oak Selfwinding.png",
         price: "$35,000",
         color: "Audemars Piguet",
       },
@@ -572,7 +572,7 @@ export const latestArrivals = [
         name: "Patek Philippe Calatrava 6119R",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Patek Philippe Calatrava 6119R.jpg",
+          "/assets/home-img/latest-arrivals/Patek Philippe Calatrava 6119R.jpg",
         price: "$31,940",
         color: "Patek Philippe",
       },
@@ -581,7 +581,7 @@ export const latestArrivals = [
         name: "Cartier Santos de Cartier Large Model",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Cartier Santos de Cartier Large Model.jpg",
+          "/assets/home-img/latest-arrivals/Cartier Santos de Cartier Large Model.jpg",
         price: "$8,450",
         color: "Cartier",
       },
@@ -590,7 +590,7 @@ export const latestArrivals = [
         name: "Tag Heuer Carrera Chronograph 42mm",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Tag Heuer Carrera Chronograph 42mm.jpg",
+          "/assets/home-img/latest-arrivals/Tag Heuer Carrera Chronograph 42mm.jpg",
         price: "$5,750",
         color: "TAG Heuer",
       },
@@ -599,7 +599,7 @@ export const latestArrivals = [
         name: "Hublot Classic Fusion Titanium 42mm",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Hublot Classic Fusion Titanium 42mm.jpg",
+          "/assets/home-img/latest-arrivals/Hublot Classic Fusion Titanium 42mm.jpg",
         price: "$8,200",
         color: "Hublot",
       },
@@ -608,7 +608,7 @@ export const latestArrivals = [
         name: "Breitling Navitimer B01 Chronograph 43",
         href: "#",
         imageSrc:
-          "src/assets/home-img/latest-arrivals/Breitling Navitimer B01 Chronograph 43.png",
+          "/assets/home-img/latest-arrivals/Breitling Navitimer B01 Chronograph 43.png",
         price: "$9,000",
         color: "Breitling",
       },
@@ -624,7 +624,7 @@ export const offeredWatches = [
         id: 1653,
         name: "Rolex Submariner Date",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
+        imageSrc: "/assets/home-img/best-selling/Rolex Submariner Date.jpg",
         originalPrice: "$10,250",
         offerPrice: "$9,800",
         color: "Rolex",
@@ -634,7 +634,7 @@ export const offeredWatches = [
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
+          "/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
         originalPrice: "$7,000",
         offerPrice: "$6,800",
         color: "Omega",
@@ -644,7 +644,7 @@ export const offeredWatches = [
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
+          "/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
         originalPrice: "$35,000",
         offerPrice: "$33,800",
         color: "Audemars Piguet",
@@ -654,7 +654,7 @@ export const offeredWatches = [
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
+          "/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
         originalPrice: "$120,000",
         offerPrice: "$118,800",
         color: "Patek Philippe",
@@ -663,7 +663,7 @@ export const offeredWatches = [
         id: 5245,
         name: "Cartier Tank Must",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
+        imageSrc: "/assets/home-img/best-selling/Cartier Tank Must.jpg",
         originalPrice: "$3,000",
         offerPrice: "$2,800",
         color: "Cartier",
@@ -673,7 +673,7 @@ export const offeredWatches = [
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
+          "/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
         originalPrice: "$6,550",
         offerPrice: "$6,000",
         color: "TAG Heuer",
@@ -682,7 +682,7 @@ export const offeredWatches = [
         id: 7532,
         name: "Hublot Big Bang Unico",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
+        imageSrc: "/assets/home-img/best-selling/Hublot Big Bang Unico.png",
         originalPrice: "$21,000",
         offerPrice: "$20,800",
         color: "Hublot",
@@ -692,7 +692,7 @@ export const offeredWatches = [
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
+          "/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
         originalPrice: "$695",
         offerPrice: "$695",
         color: "Tissot",
@@ -709,7 +709,7 @@ export const products = [
         id: 1743,
         name: "Rolex Submariner Date",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Rolex Submariner Date.jpg",
+        imageSrc: "/assets/home-img/best-selling/Rolex Submariner Date.jpg",
         price: "$10,250",
         color: "Rolex",
       },
@@ -718,7 +718,7 @@ export const products = [
         name: "Omega Speedmaster Moonwatch Professional",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
+          "/assets/home-img/best-selling/Omega Speedmaster Moonwatch Professional.jpg",
         price: "$7,000",
         color: "Omega",
       },
@@ -727,7 +727,7 @@ export const products = [
         name: "Audemars Piguet Royal Oak Selfwinding",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
+          "/assets/home-img/best-selling/Audemars Piguet Royal Oak Selfwinding.jpg",
         price: "$35,000",
         color: "Audemars Piguet",
       },
@@ -736,7 +736,7 @@ export const products = [
         name: "Patek Philippe Nautilus 5711",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
+          "/assets/home-img/best-selling/Patek Philippe Nautilus 5711.jpg",
         price: "$120,000",
         color: "Patek Philippe",
       },
@@ -744,7 +744,7 @@ export const products = [
         id: 5464,
         name: "Cartier Tank Must",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Cartier Tank Must.jpg",
+        imageSrc: "/assets/home-img/best-selling/Cartier Tank Must.jpg",
         price: "$3,000",
         color: "Cartier",
       },
@@ -753,7 +753,7 @@ export const products = [
         name: "TAG Heuer Monaco Calibre 11",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
+          "/assets/home-img/best-selling/TAG Heuer Monaco Calibre 11.jpg",
         price: "$6,550",
         color: "TAG Heuer",
       },
@@ -761,7 +761,7 @@ export const products = [
         id: 7366,
         name: "Hublot Big Bang Unico",
         href: "#",
-        imageSrc: "src/assets/home-img/best-selling/Hublot Big Bang Unico.png",
+        imageSrc: "/assets/home-img/best-selling/Hublot Big Bang Unico.png",
         price: "$21,000",
         color: "Hublot",
       },
@@ -770,7 +770,7 @@ export const products = [
         name: "Tissot PRX Powermatic 80",
         href: "#",
         imageSrc:
-          "src/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
+          "/assets/home-img/best-selling/Tissot PRX Powermatic 80.jpg",
         price: "$695",
         color: "Tissot",
       },
@@ -787,7 +787,7 @@ export const dailyDeals = [
         name: "Breitling Navitimer B01 Chronograph",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Breitling Navitimer B01 Chronograph.jpg",
+          "/assets/route-img/offers-route/Breitling Navitimer B01 Chronograph.jpg",
         originalPrice: "$9,200",
         offerPrice: "$8,750",
         color: "Breitling",
@@ -797,7 +797,7 @@ export const dailyDeals = [
         name: "Grand Seiko Spring Drive Snowflake",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Grand Seiko Spring Drive Snowflake.jpg",
+          "/assets/route-img/offers-route/Grand Seiko Spring Drive Snowflake.jpg",
         originalPrice: "$6,200",
         offerPrice: "$5,950",
         color: "Grand Seiko",
@@ -806,7 +806,7 @@ export const dailyDeals = [
         id: 3975,
         name: "Panerai Luminor Marina",
         href: "#",
-        imageSrc: "src/assets/route-img/offers-route/Panerai Luminor Marina.jpg",
+        imageSrc: "/assets/route-img/offers-route/Panerai Luminor Marina.jpg",
         originalPrice: "$7,500",
         offerPrice: "$7,100",
         color: "Panerai",
@@ -816,7 +816,7 @@ export const dailyDeals = [
         name: "Zenith Chronomaster Sport",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Zenith Chronomaster Sport.jpg",
+          "/assets/route-img/offers-route/Zenith Chronomaster Sport.jpg",
         originalPrice: "$11,000",
         offerPrice: "$10,500",
         color: "Zenith",
@@ -826,7 +826,7 @@ export const dailyDeals = [
         name: "IWC Portugieser Chronograph",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/IWC Portugieser Chronograph.jpg",
+          "/assets/route-img/offers-route/IWC Portugieser Chronograph.jpg",
         originalPrice: "$8,100",
         offerPrice: "$7,850",
         color: "IWC",
@@ -836,7 +836,7 @@ export const dailyDeals = [
         name: "Montblanc 1858 Geosphere",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Montblanc 1858 Geosphere.jpg",
+          "/assets/route-img/offers-route/Montblanc 1858 Geosphere.jpg",
         originalPrice: "$6,000",
         offerPrice: "$5,750",
         color: "Montblanc",
@@ -846,7 +846,7 @@ export const dailyDeals = [
         name: "Bell & Ross BR 03-92 Diver",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Bell & Ross BR 03-92 Diver.png",
+          "/assets/route-img/offers-route/Bell & Ross BR 03-92 Diver.png",
         originalPrice: "$4,000",
         offerPrice: "$3,800",
         color: "Bell & Ross",
@@ -856,7 +856,7 @@ export const dailyDeals = [
         name: "Nomos Tangente Neomatik 41",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Nomos Tangente Neomatik 41.jpg",
+          "/assets/route-img/offers-route/Nomos Tangente Neomatik 41.jpg",
         originalPrice: "$3,780",
         offerPrice: "$3,600",
         color: "Nomos",
@@ -873,7 +873,7 @@ export const firstPurchaseOffer = [
         id: 1121,
         name: "Seiko Prospex Alpinist",
         href: "#",
-        imageSrc: "src/assets/route-img/offers-route/Seiko Prospex Alpinist.jpg",
+        imageSrc: "/assets/route-img/offers-route/Seiko Prospex Alpinist.jpg",
         originalPrice: "$725",
         offerPrice: "$680",
         color: "Seiko",
@@ -883,7 +883,7 @@ export const firstPurchaseOffer = [
         name: "Longines Master Collection",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Longines Master Collection.jpg",
+          "/assets/route-img/offers-route/Longines Master Collection.jpg",
         originalPrice: "$2,350",
         offerPrice: "$2,150",
         color: "Longines",
@@ -893,7 +893,7 @@ export const firstPurchaseOffer = [
         name: "Hamilton Khaki Field Mechanical",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Hamilton Khaki Field Mechanical.jpg",
+          "/assets/route-img/offers-route/Hamilton Khaki Field Mechanical.jpg",
         originalPrice: "$595",
         offerPrice: "$550",
         color: "Hamilton",
@@ -903,7 +903,7 @@ export const firstPurchaseOffer = [
         name: "Baume & Mercier Clifton Baumatic",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Baume & Mercier Clifton Baumatic.jpg",
+          "/assets/route-img/offers-route/Baume & Mercier Clifton Baumatic.jpg",
         originalPrice: "$3,000",
         offerPrice: "$2,750",
         color: "Baume & Mercier",
@@ -913,7 +913,7 @@ export const firstPurchaseOffer = [
         name: "Rado Captain Cook Bronze",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Rado Captain Cook Bronze.jpg",
+          "/assets/route-img/offers-route/Rado Captain Cook Bronze.jpg",
         originalPrice: "$2,600",
         offerPrice: "$2,400",
         color: "Rado",
@@ -923,7 +923,7 @@ export const firstPurchaseOffer = [
         name: "Citizen Eco-Drive Promaster Diver",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Citizen Eco-Drive Promaster Diver.jpg",
+          "/assets/route-img/offers-route/Citizen Eco-Drive Promaster Diver.jpg",
         originalPrice: "$495",
         offerPrice: "$450",
         color: "Citizen",
@@ -933,7 +933,7 @@ export const firstPurchaseOffer = [
         name: "Oris Aquis Date Calibre 400",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Oris Aquis Date Calibre 400.jpg",
+          "/assets/route-img/offers-route/Oris Aquis Date Calibre 400.jpg",
         originalPrice: "$3,500",
         offerPrice: "$3,200",
         color: "Oris",
@@ -943,7 +943,7 @@ export const firstPurchaseOffer = [
         name: "Tudor Black Bay Fifty-Eight",
         href: "#",
         imageSrc:
-          "src/assets/route-img/offers-route/Tudor Black Bay Fifty-Eight.jpg",
+          "/assets/route-img/offers-route/Tudor Black Bay Fifty-Eight.jpg",
         originalPrice: "$4,200",
         offerPrice: "$3,950",
         color: "Tudor",
