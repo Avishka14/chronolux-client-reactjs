@@ -17,10 +17,12 @@ import ContactRoute from "../components/home_routes/Contact_Route";
 import JoinUsRoute from "../components/home_routes/JoinUs_Route";
 import Brands_SingleView from "../components/home_components/Brands_SingleView";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SingleWatchView from "../components/reusable_components/SingleWatchView";
 
 export default function Home() {
   return (
     <div className="page-container">
+      
       <Router>
         <Routes>
           <Route
@@ -35,6 +37,7 @@ export default function Home() {
                 <BestSelling />
                 <Featured />
                 <Footer />
+                <SingleWatchView/>
               </>
             }
           />
@@ -45,6 +48,7 @@ export default function Home() {
           <Route path="/aboutus" element={<AboutUsRoute />} />
           <Route path="/contact" element={<ContactRoute />} />
           <Route path="/joinus" element={<JoinUsRoute />} />
+           <Route path="/swv" element={<SingleWatchView />} />
           <Route path ="/brands_singleview/:id" element={<Brands_SingleView/>} />
         </Routes>
       </Router>
