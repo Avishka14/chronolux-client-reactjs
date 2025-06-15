@@ -6,7 +6,7 @@ import {
   firstPurchaseOffer,
   dailyDeals,
 } from "../reusable_components/WatchData";
-
+import { Link } from "react-router-dom";
 
 const watchData = [offeredWatches, firstPurchaseOffer, dailyDeals];
 
@@ -24,6 +24,7 @@ export default function Offers_Route() {
                   <h2 className="latest-heading mb-4">{section.name}</h2>
                   <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 product-list-latest">
                     {section.watches.map((watch) => (
+                      <Link to={`/proudctview/${watch.id}`} key={watch.id}>
                       <div key={watch.id} className="group relative">
                         <img
                           src={watch.imageSrc}
@@ -33,13 +34,13 @@ export default function Offers_Route() {
                         <div className="mt-4 flex justify-between">
                           <div>
                             <h3 className="text-sm">
-                              <a href={watch.href}>
+                            
                                 <span
                                   aria-hidden="true"
                                   className="absolute inset-0"
                                 />
                                 {watch.name}
-                              </a>
+                            
                             </h3>
                             <p className="mt-1 text-sm text-gray-500">
                               {watch.color}
@@ -55,6 +56,7 @@ export default function Offers_Route() {
                           </div>
                         </div>
                       </div>
+                      </Link>
                     ))}
                   </div>
                 </div>

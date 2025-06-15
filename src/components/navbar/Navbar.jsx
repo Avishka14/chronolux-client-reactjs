@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Children, useState } from "react";
 import "./Navbar.css";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import SearchIcon from "@mui/icons-material/Search";
@@ -10,7 +10,7 @@ import SideNav from "./SideNav";
 import { Link } from "react-router-dom";
 import MiniLogo from "/assets/icons/chronolux-w-png.png";  
 
-export default function Navbar() {
+export default function Navbar({children}) {
   const [showSearchBox, setSearchBox] = useState(false);
   const [showSideNav , setSideNav] = useState(false);
 
@@ -67,20 +67,9 @@ export default function Navbar() {
           </button>
         </div>
       </nav>
-
-      <nav className="nav-small">
-        <div className="small-nav-heading">
-          <p>Welcome to ChronoLux ! Your Ultimate Luxury Watch Partnter !</p>
-        </div>
-
-        <div className="small-nav-end">
-          <ul>
-           <li> <Link to="/aboutus"> About Us </Link> </li>
-           <li> <Link to="/contact"> Contact </Link> </li>
-           <li> <Link to ="/joinus" > Join Us </Link> </li>
-          </ul>
-        </div>
-      </nav>
+     
+       {children}
+    
 
       <div className="searchBox-overlay">{showSearchBox && <SearchBox />}</div>
       <div className={`sideNav-overlay ${showSideNav ? "open" : ""}`} >

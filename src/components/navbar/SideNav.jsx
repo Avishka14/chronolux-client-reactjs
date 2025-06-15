@@ -13,7 +13,7 @@ export default function SideNav({ onClose }) {
         </div>
 
          <div className="side-nav-img">
-          <img src="src/assets/icons/chronolux-png.png" />
+          <img src="/assets/icons/chronolux-png.png" />
         </div>
 
         <div className="sidenav-para">
