@@ -18,18 +18,44 @@ import JoinUsRoute from "../components/home_routes/JoinUs_Route";
 import Brands_SingleView from "../components/home_components/Brands_SingleView";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SingleWatchView from "../components/reusable_components/SingleWatchView";
-
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="page-container">
-      
       <Router>
         <Routes>
           <Route
             path="/"
             element={
               <>
-                <Navbar />
+                <Navbar>
+                  <nav className="nav-small">
+                    <div className="small-nav-heading">
+                      <p>
+                        Welcome to ChronoLux ! Your Ultimate Luxury Watch
+                        Partnter !
+                      </p>
+                    </div>
+
+                    <div className="small-nav-end">
+                      <ul>
+                        <li>
+                          {" "}
+                          <Link to="/aboutus"> About Us </Link>{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <Link to="/contact"> Contact </Link>{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <Link to="/joinus"> Join Us </Link>{" "}
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </Navbar>
+
                 <Carousel />
                 <Brands />
                 <LatestArrivals />
@@ -37,7 +63,6 @@ export default function Home() {
                 <BestSelling />
                 <Featured />
                 <Footer />
-                <SingleWatchView/>
               </>
             }
           />
@@ -48,8 +73,11 @@ export default function Home() {
           <Route path="/aboutus" element={<AboutUsRoute />} />
           <Route path="/contact" element={<ContactRoute />} />
           <Route path="/joinus" element={<JoinUsRoute />} />
-           <Route path="/swv" element={<SingleWatchView />} />
-          <Route path ="/brands_singleview/:id" element={<Brands_SingleView/>} />
+          <Route path="/proudctview/:id" element={<SingleWatchView />} />
+          <Route
+            path="/brands_singleview/:id"
+            element={<Brands_SingleView />}
+          />
         </Routes>
       </Router>
     </div>
