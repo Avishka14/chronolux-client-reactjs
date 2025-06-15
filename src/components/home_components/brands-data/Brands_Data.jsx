@@ -19,7 +19,7 @@ export const brands = [
     brandName: "Audemars Piguet",
     title: "Breaking Boundaries with Design",
     description: "Established in 1875, Audemars Piguet is renowned for its daring approach to watch design. The brand revolutionized the industry with the launch of the Royal Oak in 1972, the first luxury sports watch in stainless steel. Known for combining high horology with cutting-edge aesthetics, Audemars Piguet continues to push boundaries in watch innovation.",
-    coverImage: "/assets/brand-img/brand-cover-img/Audemars Piguet Logo Wallpaper.jpg",
+    coverImage: "/assets/brand-img/brand-cover-img/Audemars Piguet logo wallpaper.jpg",
   },
   {
     id: "3",

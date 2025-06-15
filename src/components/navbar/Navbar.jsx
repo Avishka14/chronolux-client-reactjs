@@ -23,7 +23,7 @@ export default function Navbar() {
   }
 
   return (
-    <div>
+    <div className="navbar-container">
       <nav className="navbar">
         <div className="navbar-right">
           <img src={MiniLogo} alt="logo" />
