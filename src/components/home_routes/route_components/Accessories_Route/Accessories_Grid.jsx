@@ -1,5 +1,6 @@
 import React from "react";
 import "./Accessories.css"; 
+import { Link } from "react-router-dom";
 
 export default function Accessories_Grid({ brand, children }) {
   return (
@@ -7,6 +8,7 @@ export default function Accessories_Grid({ brand, children }) {
       <div className="heading-div">{children}</div>
       <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 img-cont-ac">
         {brand.accessorie.map((accessorie) => (
+          <Link to={`/accessoriesview`} key={accessorie.id}>
           <div key={accessorie.id} className="group relative ">
             <img
               src={accessorie.imageSrc}
@@ -21,6 +23,7 @@ export default function Accessories_Grid({ brand, children }) {
               </div>
             </div>
           </div>
+         </Link>
         ))}
       </div>
     </div>

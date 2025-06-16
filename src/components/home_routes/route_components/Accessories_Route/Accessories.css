@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 .heading-div{
 font-size: clamp(1rem, 1vw + 1rem, 2rem);
 font-weight: bold;
@@ -11,4 +13,17 @@ display: flex;
 
 .img-cont-ac{
     margin: 40px;
+}
+
+.waiting-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+}
+
+.waiting-div h1{
+     font-size: clamp(1.25rem, 5vw, 8rem);
+     font-family: "Poiret One", sans-serif;
 }

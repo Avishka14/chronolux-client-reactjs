@@ -1,3 +1,4 @@
+
 .breadcrumb-nav{
     margin: 20px;
 }
@@ -42,9 +43,9 @@
 }
 
 .singleView-brand{
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: #003a30;
+  color: #505050;
   padding: 2px;
 }
 
@@ -52,8 +53,8 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #00aeff;
- padding: 10px;
+  color: #0d5779;
+  padding: 10px;
 }
 
 .singleView-price {
