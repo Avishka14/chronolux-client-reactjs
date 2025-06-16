@@ -19,6 +19,7 @@ import Brands_SingleView from "../components/home_components/Brands_SingleView";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SingleWatchView from "../components/reusable_components/SingleWatchView";
 import { Link } from "react-router-dom";
+import AccessoriesView from "../components/home_routes/route_components/Accessories_Route/AccessoriesView";
 export default function Home() {
   return (
     <div className="page-container">
@@ -55,7 +56,6 @@ export default function Home() {
                     </div>
                   </nav>
                 </Navbar>
-
                 <Carousel />
                 <Brands />
                 <LatestArrivals />
@@ -77,6 +77,10 @@ export default function Home() {
           <Route
             path="/brands_singleview/:id"
             element={<Brands_SingleView />}
+          />
+          <Route
+            path="/accessoriesview"
+            element={<AccessoriesView/>}
           />
         </Routes>
       </Router>
