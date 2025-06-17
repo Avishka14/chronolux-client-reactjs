@@ -1,0 +1,112 @@
+.main-logIn-container {
+  min-height: 100vh;
+  background-color: #f5f5f5; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.heading-logIn {
+   display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.heading-logIn img {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.heading-logIn h2 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: #183d55;
+}
+
+.logIn-Box {
+  background-color: white;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section label {
+  margin-bottom: 0.3rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  color: #444;
+}
+
+.input-section input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.savePassword-checkBox-Login {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.password-recover {
+  text-align: right;
+}
+
+.password-recover a {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.password-recover a:hover {
+  text-decoration: underline;
+}
+
+.logIn-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.log-in-btn,
+.sign-in-btn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.log-in-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.log-in-btn:hover {
+  background-color: #0056b3;
+}
+
+.sign-in-btn {
+  background-color: #e9ecef;
+  color: #333;
+  text-align: center;
+}
+
+.sign-in-btn:hover {
+  background-color: #d6d8db;
+}

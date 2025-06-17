@@ -79,6 +79,11 @@ export default function Brands() {
           <hr />
         </div>
       </div>
+
+           <Link to="/account" >
+            <span>Hello</span>
+           </Link>
+
     </div>
   );
 }
