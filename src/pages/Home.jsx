@@ -20,9 +20,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SingleWatchView from "../components/reusable_components/SingleWatchView";
 import { Link } from "react-router-dom";
 import AccessoriesView from "../components/home_routes/route_components/Accessories_Route/AccessoriesView";
+import Account from "./Account/Account";
+import LogIn from "./Account/LogIn";
+import SignIn from "./Account/SignIn";
+
 export default function Home() {
   return (
     <div className="page-container">
+
       <Router>
         <Routes>
           <Route
@@ -78,10 +83,10 @@ export default function Home() {
             path="/brands_singleview/:id"
             element={<Brands_SingleView />}
           />
-          <Route
-            path="/accessoriesview"
-            element={<AccessoriesView/>}
-          />
+          <Route path="/accessoriesview" element={<AccessoriesView />} />
+          <Route path="/account" element={<Account/>} />
+          <Route path="/login" element={<LogIn/>} />
+          <Route path="/signin" element={<SignIn/>} />
         </Routes>
       </Router>
     </div>

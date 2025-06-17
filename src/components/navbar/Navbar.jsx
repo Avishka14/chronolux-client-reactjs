@@ -8,19 +8,19 @@ import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOu
 import SearchBox from "./SearchBox";
 import SideNav from "./SideNav";
 import { Link } from "react-router-dom";
-import MiniLogo from "/assets/icons/chronolux-w-png.png";  
+import MiniLogo from "/assets/icons/chronolux-w-png.png";
 
-export default function Navbar({children}) {
+export default function Navbar({ children }) {
   const [showSearchBox, setSearchBox] = useState(false);
-  const [showSideNav , setSideNav] = useState(false);
+  const [showSideNav, setSideNav] = useState(false);
 
   const handleClick = () => {
     setSearchBox((prev) => !prev);
   };
 
-  const handleSideNav =() =>{
+  const handleSideNav = () => {
     setSideNav((prev) => !prev);
-  }
+  };
 
   return (
     <div className="navbar-container">
@@ -31,11 +31,26 @@ export default function Navbar({children}) {
 
         <div className="navbar-center">
           <ul>
-            <li>  <Link to="/"> Home </Link> </li>
-            <li>  <Link to="/shop">   Shop </Link> </li>
-            <li>  <Link to="/brand">   Brands </Link></li>
-            <li>  <Link to="/accessories">  Accessories </Link></li>
-            <li>  <Link to="/offers"> Offers  </Link></li>
+            <li>
+              {" "}
+              <Link to="/"> Home </Link>{" "}
+            </li>
+            <li>
+              {" "}
+              <Link to="/shop"> Shop </Link>{" "}
+            </li>
+            <li>
+              {" "}
+              <Link to="/brand"> Brands </Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="/accessories"> Accessories </Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="/offers"> Offers </Link>
+            </li>
           </ul>
         </div>
 
@@ -57,7 +72,9 @@ export default function Navbar({children}) {
           </div>
 
           <div className="account-icon">
+            <Link to="/account">
             <AccountCircleOutlinedIcon className="account-icon-m" />
+            </Link>
           </div>
         </div>
 
@@ -67,15 +84,13 @@ export default function Navbar({children}) {
           </button>
         </div>
       </nav>
-     
-       {children}
-    
+
+      {children}
 
       <div className="searchBox-overlay">{showSearchBox && <SearchBox />}</div>
-      <div className={`sideNav-overlay ${showSideNav ? "open" : ""}`} >
-        {showSideNav && <SideNav onClose={handleSideNav}/>}
-        </div>
-
+      <div className={`sideNav-overlay ${showSideNav ? "open" : ""}`}>
+        {showSideNav && <SideNav onClose={handleSideNav} />}
+      </div>
     </div>
   );
 }
