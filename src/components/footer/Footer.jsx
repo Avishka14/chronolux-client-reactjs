@@ -88,7 +88,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-gray-700 pt-6 text-sm text-gray-500 text-center footer-watermark ">
-          <p >  © 2024 Designed By Avishka Chamod</p>
+          <p >  © 2025 Designed By Avishka Chamod</p>
         </div>
       </div>
     </footer>

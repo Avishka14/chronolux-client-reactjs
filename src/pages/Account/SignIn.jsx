@@ -13,50 +13,49 @@ function SignIn() {
       </div>
 
       <form className="logIn-Box">
+        <div className="input-section">
+          <label htmlFor="fullName">Full Name</label>
+          <input
+            type="text"
+            id="fullName"
+            placeholder="Enter your full name"
+            autoComplete="name"
+            required
+          />
+        </div>
 
-       <div className="input-section">
-  <label htmlFor="fullName">Full Name</label>
-  <input
-    type="text"
-    id="fullName"
-    placeholder="Enter your full name"
-    autoComplete="name"
-    required
-  />
-</div>
+        <div className="input-section">
+          <label htmlFor="mobile">Mobile</label>
+          <input
+            type="tel"
+            id="mobile"
+            placeholder="Enter mobile"
+            autoComplete="tel"
+            required
+          />
+        </div>
 
-<div className="input-section">
-  <label htmlFor="mobile">Mobile</label>
-  <input
-    type="tel"
-    id="mobile"
-    placeholder="Enter mobile"
-    autoComplete="tel"
-    required
-  />
-</div>
+        <div className="input-section">
+          <label htmlFor="email">E-Mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter email"
+            autoComplete="email"
+            required
+          />
+        </div>
 
-<div className="input-section">
-  <label htmlFor="email">E-Mail</label>
-  <input
-    type="email"
-    id="email"
-    placeholder="Enter email"
-    autoComplete="email"
-    required
-  />
-</div>
-
-<div className="input-section">
-  <label htmlFor="password">Password</label>
-  <input
-    type="password"
-    id="password"
-    placeholder="Enter password"
-    autoComplete="new-password"
-    required
-  />
-</div>
+        <div className="input-section">
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+            autoComplete="new-password"
+            required
+          />
+        </div>
 
         <div className="savePassword-checkBox-Login">
           <FormControlLabel control={<Checkbox />} label="Save Password" />
@@ -64,8 +63,8 @@ function SignIn() {
 
         <div className="logIn-buttons">
           <button className="log-in-btn">Create Account</button>
-          <Link to={'/login'} className="sign-in-btn">
-          <button>Already Have a One ?</button>
+          <Link to={"/login"} className="sign-in-btn">
+            <button>Already Have a One ?</button>
           </Link>
         </div>
       </form>

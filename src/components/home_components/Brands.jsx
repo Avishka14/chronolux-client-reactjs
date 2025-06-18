@@ -66,12 +66,12 @@ export default function Brands() {
             <h3 className="h3-second">
               Log In or Create a Account to Get Started!
             </h3>
-            <a href="" className="brands-btn-log-in">
-              Log In
-            </a>
-            <a href="" className="brands-btn-sign-in">
-              Create Account
-            </a>
+            <Link to={"/login"} className="brands-btn-log-in"> 
+             <span>  Log In</span>
+            </Link>
+            <Link to={"/signin"} className="brands-btn-sign-in"> 
+             <span>  Create an Account </span>
+            </Link>
           </div>
         </div>
 
@@ -79,11 +79,6 @@ export default function Brands() {
           <hr />
         </div>
       </div>
-
-           <Link to="/account" >
-            <span>Hello</span>
-           </Link>
-
     </div>
   );
 }
