@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/navbar/Navbar";
 import Carousel from "../components/home_components/Carousel";
 import "./Home.css";
@@ -25,6 +25,14 @@ import LogIn from "./Account/LogIn";
 import SignIn from "./Account/SignIn";
 
 export default function Home() {
+  useEffect(() => {
+    const hasVisited = localStorage.getItem("hasVisitedHome");
+    if (!hasVisited) {
+      alert("⚠️ This project does not have a backend and is not finished yet!");
+      localStorage.setItem("hasVisitedHome", "true");
+    }
+  }, []);
+
   return (
     <div className="page-container">
 
